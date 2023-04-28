@@ -12,6 +12,9 @@ export const metadata = {
   title: "Contact - Harshit Kumar Full Stack Web Developer",
   description:
     "Get in touch with Harshit Kumar, a full-stack web developer. Contact me for any queries or project collaborations.",
+  alternates: {
+    canonical: "https://www.harshitclub.com/contact",
+  },
 };
 
 export default function Contact() {

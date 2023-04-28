@@ -22,6 +22,9 @@ export const metadata = {
     "Developer",
     "Portfolio",
   ],
+  alternates: {
+    canonical: "https://www.harshitclub.com",
+  },
   openGraph: {
     type: "website",
     url: "https://harshitclub.com/",
@@ -52,7 +55,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
-<Analytics />
+        <Analytics />
         <Footer />
       </body>
     </html>
