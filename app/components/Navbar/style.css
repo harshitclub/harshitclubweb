@@ -4,6 +4,10 @@
   transition: 0.3s;
 }
 
+.sNav .navContainer {
+  border: none;
+}
+
 .sNav .navContainer .menu ul li a {
   color: var(--white);
 }
@@ -27,6 +31,10 @@ nav .navLogo img {
   width: 15rem;
   height: auto;
   color: var(--white);
+}
+
+nav .navContainer {
+  border-bottom: 1px solid var(--borderColor);
 }
 
 nav .navContainer .menu ul li a {

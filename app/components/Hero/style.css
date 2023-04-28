@@ -1,5 +1,5 @@
 .hero {
-  height: 60vh;
+  height: 70vh;
   background: url(../../../public/herobg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,12 +72,12 @@
     height: 50vh;
   }
   .hero .heroContainer h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .hero .heroContainer h2 {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .hero .heroContainer p {
