@@ -32,10 +32,6 @@
   width: 70%;
 }
 
-.hero .heroContainer p {
-  color: var(--textColor);
-}
-
 .hero .heroContainer .heroBtns .heroBtn a {
   background-color: var(--black);
   color: var(--white);
@@ -55,23 +51,13 @@
   margin: 0 0 -0.12rem 0;
 }
 
-.hero .heroArrow {
-  height: 5rem;
-  padding: 0 0 1rem 0;
-}
-
-.hero .hero-arrow {
-  font-size: var(--h2);
-  color: var(--black);
-}
-
 @media screen and (min-width: 300px) and (max-width: 480px) {
   .hero {
-    height: 60vh;
+    height: 40vh;
     padding: 6rem 0 0 0;
   }
   .hero .heroContainer h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .hero .heroContainer h2 {
@@ -92,9 +78,5 @@
   .hero .heroContainer h2 {
     width: 100%;
     font-size: 1.4rem;
-  }
-
-  .hero .heroContainer p {
-    font-size: 1.2rem;
   }
 }
