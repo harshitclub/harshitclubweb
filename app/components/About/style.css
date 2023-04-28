@@ -1,0 +1,37 @@
+.aboutSection .aboutSContainer {
+  background: url(../../../public/aboutbg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 1rem 0 0;
+  border-radius: 0.2rem;
+}
+
+.aboutSection .aboutSContainer h2 {
+  margin: 0 0 1.5rem 0;
+  color: var(--headingColor);
+  font-size: 1.4rem;
+}
+
+.aboutSection .aboutSContainer p {
+  color: var(--textColor);
+}
+
+.aboutSection .aboutSContainer .aboutSBtns .aboutSbtn a button {
+  padding: 0.5rem;
+  background-color: var(--headingColor);
+  color: var(--white);
+  border: 1px solid var(--headingColor);
+  margin: 0 1rem 0 0;
+  width: 8rem;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0.2rem;
+}
+
+.aboutSection .aboutSContainer .aboutSBtns .aboutSbtn a button:hover {
+  background-color: var(--white);
+  color: var(--textColor);
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+}

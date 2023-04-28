@@ -1,0 +1,47 @@
+.myStory .myStoryHeader {
+  background: url(../../public/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  padding: 4rem 0 0 0;
+}
+
+.myStory .myStoryHeader h1 {
+  color: var(--headingColor);
+  font-size: var(--h1);
+  font-weight: 500;
+}
+
+.myStory .myStoryContainer {
+  margin: 1rem 0 2rem 0;
+}
+
+.myStory .myStoryContainer h2 {
+  font-weight: 600;
+  color: var(--headingColor);
+  margin: 0 0 0.2rem 0;
+}
+
+.myStory .myStoryContainer h3 {
+  font-weight: 600;
+  color: var(--headingColor);
+  margin: 0 0 0.2rem 0;
+}
+
+.myStory .myStoryContainer p {
+  color: var(--textColor);
+  margin: 0 0 1rem 0;
+  text-align: justify;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .myStory .myStoryContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .myStory .myStoryContainer {
+    width: 90%;
+  }
+}

@@ -1,0 +1,235 @@
+.skillsSection {
+  margin: 2rem 0 0 0;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes {
+  margin: 0 0 1rem 0;
+}
+
+.skillsSection .skillSectionContainer h2 {
+  color: var(--headingColor);
+  font-size: 1.4rem;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .skillSBox {
+  border: 1px solid var(--borderColor);
+  padding: 0.5rem;
+  width: 19%;
+  overflow: hidden;
+  color: var(--headingColor);
+  cursor: pointer;
+  background-color: var(--white);
+  border-radius: 0.2rem;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .skillSBox h3 {
+  font-size: 1rem;
+  font-weight: 400 !important;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .js:hover {
+  background-color: #f0db4f;
+  border: 1px solid #f0db4f;
+  color: var(--black);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .react:hover {
+  background-color: #61dbfb;
+  border: 1px solid #61dbfb;
+  color: var(--black);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .next:hover {
+  background-color: #42424a;
+  border: 1px solid #42424a;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .node:hover {
+  background-color: #3c873a;
+  border: 1px solid #3c873a;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .express:hover {
+  background-color: #303030;
+  border: 1px solid #303030;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .mongo:hover {
+  background-color: #4db33d;
+  border: 1px solid #4db33d;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .html:hover {
+  background-color: #e34c26;
+  border: 1px solid #e34c26;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .css:hover {
+  background-color: #264de4;
+  border: 1px solid #264de4;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .scss:hover {
+  background-color: #cc6699;
+  border: 1px solid #cc6699;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .git:hover {
+  background-color: #f34f29;
+  border: 1px solid #f34f29;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .material:hover {
+  background-color: #1e88e5;
+  border: 1px solid #1e88e5;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .bootstrap:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .firebase:hover {
+  background-color: #f5820d;
+  border: 1px solid #f5820d;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .seo:hover {
+  background-color: var(--black);
+  border: 1px solid var(--black);
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .wordpress:hover {
+  background-color: #21759b;
+  border: 1px solid #21759b;
+  color: var(--white);
+  transition: 0.3s;
+}
+
+.skillsSection .skillSectionContainer h2 {
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+}
+
+.skillsSection .skillSectionContainer h3 {
+  margin: 0 0 1rem 0;
+  font-weight: 600;
+}
+
+.mOtherSkillsHeading {
+  display: none;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .skillSBox h3 {
+  font-weight: 600;
+  margin: 0 0 0.2rem 0;
+}
+
+.skillsSection .skillSectionContainer .skillSBoxes .skillSBox p {
+  text-align: justify;
+}
+
+.skillsSection .skillSectionContainer .mobileSkillBoxes {
+  flex-wrap: wrap;
+  display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .skillsSection .skillSectionContainer .skillSBoxes {
+    display: none;
+  }
+  .skillsSection .skillSectionContainer .otherSkillsHeading {
+    display: none;
+  }
+  .skillsSection .skillSectionContainer .mobileSkillBoxes {
+    display: block;
+    flex-wrap: wrap;
+  }
+
+  .skillsSection .skillSectionContainer .mobileSkillBoxes .mSkillBox {
+    /* width: 10rem; */
+    display: inline-block;
+    border: 1px solid var(--borderColor);
+    border-radius: 0.2rem;
+    margin: 0 1rem 1rem 0;
+  }
+
+  .skillsSection .skillSectionContainer .mobileSkillBoxes .mSkillBox:hover {
+    border: 1px solid var(--headingColor);
+    transition: 0.3s;
+  }
+
+  .mOtherSkillsHeading {
+    display: block;
+    margin: 0 0 0.5rem 0 !important;
+  }
+
+  .skillsSection .skillSectionContainer .mobileSkillBoxes .mSkillBox h3 {
+    font-weight: 500;
+    padding: 0.5rem;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .skillsSection .skillSectionContainer .skillSBoxes {
+    display: none;
+  }
+  .skillsSection .skillSectionContainer .otherSkillsHeading {
+    display: none;
+  }
+  .skillsSection .skillSectionContainer .mobileSkillBoxes {
+    display: block;
+    flex-wrap: wrap;
+  }
+
+  .skillsSection .skillSectionContainer .mobileSkillBoxes .mSkillBox {
+    /* width: 10rem; */
+    display: inline-block;
+    border: 1px solid var(--borderColor);
+    border-radius: 0.2rem;
+    margin: 0 1rem 1rem 0;
+  }
+
+  .skillsSection .skillSectionContainer .mobileSkillBoxes .mSkillBox:hover {
+    border: 1px solid var(--headingColor);
+    transition: 0.3s;
+  }
+
+  .mOtherSkillsHeading {
+    display: block;
+    margin: 0 0 0.5rem 0 !important;
+  }
+
+  .skillsSection .skillSectionContainer .mobileSkillBoxes .mSkillBox h3 {
+    font-weight: 500;
+    padding: 0.5rem;
+    margin: 0;
+  }
+}

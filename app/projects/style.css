@@ -1,0 +1,130 @@
+.projects .projectsHeader {
+  background: url(../../public/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  padding: 4rem 0 0 0;
+}
+
+.projects .projectsHeader h1 {
+  color: var(--headingColor);
+  font-size: var(--h1);
+  font-weight: 500;
+}
+
+.projects .projectsContainer {
+  margin: 1rem 0 2rem 0;
+}
+
+.projects .projectsContainer .projectSearchBox {
+  border-bottom: 1px solid var(--borderColor);
+  padding: 0 0 1rem 0;
+  margin: 0 0 1rem 0;
+}
+
+.projects .projectsContainer .projectSearchBox .projectSearchHeading h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.projects
+  .projectsContainer
+  .projectSearchBox
+  .selectItem
+  .searchProject
+  select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--borderColor);
+  outline: none;
+  background-color: var(--white);
+  border-radius: 0.2rem;
+}
+
+.allProjectsTab .allProjectBox {
+  width: 32%;
+  color: var(--headingColor);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--borderColor);
+  border-radius: 0.2rem;
+}
+
+.allProjectsTab .allProjectBox:hover {
+  border: 1px solid var(--headingColor);
+  transition: 0.3s;
+}
+
+.allProjectsTab {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.allProjectsTab .allProjectBox .allProjectBtns .allProjectBtn {
+  margin: 0 0 0.5rem 0;
+}
+
+.allProjectsTab .allProjectBox .allProjectBtns .allProjectBtn a {
+  color: var(--textColor);
+  font-size: 1.4rem;
+}
+
+.allProjectsTab .allProjectBox h3 {
+  margin: 0 0 0.5rem 0;
+  font-weight: 500;
+}
+
+.allProjectsTab .allProjectBox p {
+  text-align: justify;
+  font-size: 0.9rem;
+  color: var(--textColor);
+}
+
+.allProjectsTab .allProjectBox .allProjectTech {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .projects .projectsHeader h1 {
+    font-size: 1.8rem;
+  }
+  .projects .projectsContainer .projectSearchBox .projectSearchHeading h2 {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0;
+  }
+  .projects .projectsContainer .projectSearchBox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .allProjectsTab {
+    flex-direction: column;
+  }
+
+  .allProjectsTab .allProjectBox {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .projects .projectsHeader h1 {
+    font-size: 1.8rem;
+  }
+  .projects .projectsContainer .projectSearchBox .projectSearchHeading h2 {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0;
+  }
+  .projects .projectsContainer .projectSearchBox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .allProjectsTab {
+    flex-direction: column;
+  }
+
+  .allProjectsTab .allProjectBox {
+    width: 100%;
+  }
+}

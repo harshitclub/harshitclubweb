@@ -1,0 +1,146 @@
+.contact .contactHeader {
+  background: url(../../public/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  padding: 4rem 0 0 0;
+}
+
+.contact .contactHeader h1 {
+  color: var(--headingColor);
+  font-size: var(--h1);
+  font-weight: 500;
+}
+
+.contact .contactContainer {
+  width: 80%;
+  margin: 4rem 0 4rem 0;
+}
+
+.contact .contactContainer .contactCLeft form .cInputs {
+  margin: 0 0 1rem 0;
+}
+
+.contact .contactContainer .contactCLeft form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid var(--borderColor);
+  border-radius: 0.2rem;
+}
+
+.contact .contactContainer .contactCLeft form input[type="submit"] {
+  background-color: var(--headingColor);
+  color: var(--white);
+  border: 1px solid var(--headingColor);
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+.contact .contactContainer .contactCLeft form input[type="submit"]:hover {
+  background-color: var(--white);
+  color: var(--headingColor);
+  transition: 0.3s;
+}
+
+.contact .contactContainer .contactCLeft form select {
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid var(--borderColor);
+  background-color: var(--white);
+}
+
+.contact .contactContainer .contactCLeft form textarea {
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid var(--borderColor);
+}
+
+.contact .contactContainer .borderRight {
+  border-right: 1px solid #c5c5c5;
+  height: 22.5rem;
+  margin: 0 1rem 0 1rem;
+  width: 2%;
+}
+
+.contact .contactContainer .contactCRight h2 {
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: var(--headingColor);
+}
+
+.contact .contactContainer .contactCRight h3 {
+  margin: 0 0 1rem 0;
+  color: var(--headingColor);
+}
+
+.contact .contactContainer .contactCRight h3 a {
+  font-weight: 500;
+  color: var(--headingColor);
+  margin: 0 0 1rem 0;
+}
+
+.contact .contactContainer .contactCRight p {
+  margin: 0 0 1rem 0;
+  text-align: justify;
+  color: var(--textColor);
+}
+
+.contact .contactContainer .contactCRight .contactSocial .contactSIcons {
+  font-size: 2rem;
+  margin: 0 1rem 1rem 0;
+}
+
+.contact .contactContainer .contactCRight .contactSocial .contactSIcons a {
+  color: var(--headingColor);
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .contact .contactContainer {
+    flex-direction: column;
+    width: 90%;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .contact .contactContainer .contactCLeft {
+    width: 100%;
+    margin: 0 0 1rem 0;
+    border-bottom: 1px solid grey;
+    padding: 0 0 1rem 0;
+  }
+
+  .contact .contactContainer .borderRight {
+    display: none;
+  }
+
+  .contact .contactContainer .contactCRight {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .contact .contactContainer {
+    flex-direction: column;
+    width: 90%;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .contact .contactContainer .contactCLeft {
+    width: 100%;
+    margin: 0 0 1rem 0;
+    border-bottom: 1px solid grey;
+    padding: 0 0 1rem 0;
+  }
+
+  .contact .contactContainer .borderRight {
+    display: none;
+  }
+
+  .contact .contactContainer .contactCRight {
+    width: 100%;
+  }
+}

@@ -1,0 +1,53 @@
+.terms .termsHeader {
+  background: url(../../public/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  padding: 4rem 0 0 0;
+  margin: 0 0 1rem 0;
+}
+
+.terms .termsHeader h1 {
+  color: var(--headingColor);
+  font-size: var(--h1);
+  font-weight: 500;
+}
+
+.terms .termsContainer {
+  width: 60%;
+  margin: 0 0 2rem 0;
+}
+
+.terms .termsContainer h2 {
+  font-weight: 500;
+  margin: 0 0 0.3rem 0;
+}
+
+.terms .termsContainer p {
+  margin: 0 0 1rem 0;
+}
+
+.terms .termsContainer p a {
+  color: var(--black);
+}
+
+.terms .termsContainer ul {
+  list-style: disc;
+  margin: 0 0 1rem 0;
+}
+
+.terms .termsContainer ul li {
+  margin: 0 0 0.5rem 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .terms .termsContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .terms .termsContainer {
+    width: 90%;
+  }
+}

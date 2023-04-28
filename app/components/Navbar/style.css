@@ -1,0 +1,142 @@
+/* nav scroll style */
+.sNav {
+  background-color: var(--headingColor);
+  transition: 0.3s;
+}
+
+.sNav .navContainer .menu ul li a {
+  color: var(--white);
+}
+
+.sNav .navContainer .rMenuBtn {
+  color: var(--white);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: fixed;
+  height: 3.5rem;
+  z-index: 999;
+}
+
+nav .navLogo img {
+  width: 15rem;
+  height: auto;
+  color: var(--white);
+}
+
+nav .navContainer .menu ul li a {
+  color: var(--headingColor);
+  margin: 0 1.5rem 0 0;
+  font-size: var(--p);
+  font-weight: 500;
+}
+
+nav .navContainer .menu ul .navMail {
+  display: none;
+}
+
+nav .navContainer .menu ul li a:hover {
+  color: var(--offWhite);
+  transition: 0.3s;
+}
+
+nav .navContainer .rMenuBtn {
+  display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  nav .navContainer .rMenuBtn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: var(--black);
+    font-size: 2rem;
+  }
+  nav .navContainer .menu {
+    left: -100%;
+    position: absolute;
+    top: 0;
+    background-color: var(--headingColor);
+    height: 100vh;
+    width: 70vw;
+    right: 0;
+    transition: 0.5s;
+    z-index: 999;
+  }
+
+  nav .navContainer .menu ul {
+    margin: 2rem 0 0 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  nav .navContainer .menu ul .navMail {
+    display: block;
+  }
+
+  nav .navContainer .menu ul li {
+    margin: 0 0 2rem 0;
+  }
+
+  nav .navContainer .menu ul li a {
+    color: var(--white);
+    font-size: 1.1rem;
+  }
+
+  nav .navContainer .showNav {
+    left: 0;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  nav .navContainer .rMenuBtn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: var(--black);
+    font-size: 2rem;
+  }
+  nav .navContainer .menu {
+    left: -100%;
+    position: absolute;
+    top: 0;
+    background-color: var(--headingColor);
+    height: 100vh;
+    width: 70vw;
+    right: 0;
+    transition: 0.5s;
+    z-index: 999;
+  }
+
+  nav .navContainer .menu ul {
+    margin: 2rem 0 0 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  nav .navContainer .menu ul .navMail {
+    display: block;
+  }
+
+  nav .navContainer .menu ul li {
+    margin: 0 0 2rem 0;
+  }
+
+  nav .navContainer .menu ul li a {
+    color: var(--white);
+    font-size: 1.1rem;
+  }
+
+  nav .navContainer .showNav {
+    left: 0;
+    transition: 0.5s;
+  }
+}

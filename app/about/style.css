@@ -1,0 +1,153 @@
+.about .aboutHeader {
+  background: url(../../public/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  padding: 4rem 0 0 0;
+}
+
+.about .aboutHeader h1 {
+  color: var(--headingColor);
+  font-size: var(--h1);
+  font-weight: 500;
+}
+
+.about .aboutContainer {
+  margin: 2rem 0 2rem 0;
+}
+
+.about .aboutContainer h2 {
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: var(--headingColor);
+  font-size: 1.4rem;
+}
+
+.about .aboutContainer p {
+  margin: 0 0 1rem 0;
+  text-align: justify;
+  color: var(--textColor);
+}
+
+.about .aboutContainer .aboutExperience h3 {
+  font-size: var(--h4);
+  font-weight: 600;
+  margin: 0 0 0.2rem 0;
+  color: var(--headingColor);
+}
+
+.about .aboutContainer .aboutExperience p {
+  margin: 0 0 0.2rem 0;
+  font-weight: 600;
+  color: var(--headingColor);
+}
+
+.about .aboutContainer .aboutExperience p span {
+  font-weight: 400;
+  color: var(--textColor);
+}
+
+.about .aboutContainer .aboutExperience p span a {
+  color: var(--textColor);
+}
+
+.aboutExperienceIcon {
+  margin: 0 0 -0.15rem 0;
+}
+
+.about .aboutContainer .aboutExperience p span a:hover {
+  color: var(--offWhite);
+  transition: 0.3s;
+}
+
+.about .aboutContainer .aboutEducation h3 {
+  font-size: var(--h4);
+  font-weight: 500;
+  margin: 0 0 0.2rem 0;
+  color: var(--headingColor);
+}
+
+.about .aboutContainer .aboutEducation p {
+  margin: 0 0 0.2rem 0;
+  font-weight: 500;
+  color: var(--textColor);
+}
+
+.about .aboutContainer .aboutEducation p span {
+  font-weight: 400;
+}
+
+.about .aboutContainer .aboutEducation p span a {
+  color: var(--textColor);
+}
+.about .aboutContainer .aboutEducation p span a:hover {
+  color: var(--offWhite);
+  transition: 0.3s;
+}
+
+.about .aboutContainer .aboutSkills p {
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: var(--textColor);
+}
+
+.about .aboutContainer .aboutSkills p span {
+  font-weight: 400;
+  color: var(--textColor);
+}
+
+.about .aboutContainer .aboutSIcons .aboutSIcon a {
+  font-size: var(--h1);
+  color: var(--textColor);
+  margin: 0 1rem 0 0;
+}
+
+.about .aboutContainer .aboutResume button {
+  padding: 0.5rem;
+  background-color: var(--headingColor);
+  color: var(--white);
+  border: 1px solid var(--headingColor);
+  border-radius: 0.2rem;
+}
+
+.about .aboutContainer .aboutResume button a {
+  color: var(--white);
+}
+
+.aboutDResumeBtn {
+  margin: 0 0 -0.1rem 0;
+}
+
+.about .aboutContainer .aboutResume button:hover {
+  background-color: var(--white);
+  color: var(--headingColor);
+  transition: 0.3;
+  cursor: pointer;
+}
+
+.about .aboutContainer .aboutResume button:hover a {
+  color: var(--headingColor);
+  transition: 0.3s;
+}
+
+.about .aboutContainer .aboutEmail p {
+  font-weight: 500;
+  color: var(--textColor);
+}
+
+.about .aboutContainer .aboutEmail p a {
+  color: var(--textColor);
+  font-weight: 400;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .about .aboutContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .about .aboutContainer {
+    width: 90%;
+  }
+}

@@ -1,0 +1,56 @@
+.exSection .exSContainer {
+  border-radius: 0.2rem;
+}
+
+.exSection .exSContainer h2 {
+  background-color: var(--white);
+  font-size: 1.4rem;
+}
+
+.exSection .exSContainer .exBox {
+  padding: 0.5rem;
+  border: 1px solid var(--borderColor);
+  /* margin: 0.5rem 1rem 0 0; */
+  border-radius: 0.2rem;
+  color: var(--textColor);
+}
+
+.exSection .exSContainer .exBox:hover {
+  background-color: var(--white);
+  color: var(--black);
+  transition: 0.3s;
+}
+
+.exSection .exSContainer .exBox .exFirst h3 {
+  font-weight: 500;
+  margin: 0 0 0.3rem 0;
+  font-size: 1.1rem;
+  color: var(--headingColor);
+}
+
+.exHeadIcons {
+  margin: 0 0 -0.18rem 0;
+}
+
+.exSection .exSContainer .exBox .exFirst p {
+  margin: 0 0 0.5rem 0;
+  color: var(--textColor);
+}
+
+.exSection .exSContainer .exBox .exFirst p a {
+  color: var(--textColor);
+}
+
+.exIcon {
+  margin: 0 0 -0.1rem 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .exSection .exSContainer h2 {
+    margin: 0 0 1rem 0;
+  }
+  .exSection .exSContainer {
+    border: none;
+    padding: 0;
+  }
+}

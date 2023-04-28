@@ -1,0 +1,40 @@
+.skills .skillsHeader {
+  background: url(../../public/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  padding: 4rem 0 0 0;
+}
+
+.skills .skillsHeader h1 {
+  color: var(--headingColor);
+  font-size: var(--h1);
+  font-weight: 500;
+}
+
+.skills .skillsContainer {
+  margin: 1rem 0 2rem 0;
+}
+
+.skills .skillsContainer .allSkills h2 {
+  font-weight: 500;
+  font-size: var(--h4);
+  margin: 0 0 0.2rem 0;
+}
+
+.skills .skillsContainer .allSkills p {
+  margin: 0 0 1rem 0;
+}
+
+.skills .skillsContainer .allSkills p span a {
+  color: var(--black);
+}
+
+.skills .skillsContainer .allSkills p span a:hover {
+  color: var(--offWhite);
+  transition: 0.3s;
+}
+
+.skills .skillsContainer .allSkills p span a .allSkillsIcon {
+  margin: 0 0 -0.15rem 0;
+}

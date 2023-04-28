@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* body {
+  font-family: "IBM Plex Mono", monospace;
+} */
+
+/* p {
+  line-height: 1.5rem;
+} */
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--white);
+  background: var(--headingColor);
+}
+
+::selection {
+  color: var(--white);
+  background: var(--headingColor);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+select,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+select {
+  color: grey;
+}
+
+/* variables */
+:root {
+  --black: #0a0a0a;
+  --black2: #212121;
+  --white: #ffffff;
+  --offWhite: #bfbfbf;
+  --grey: #c5c5c5;
+
+  --textColor: #282c35;
+  --headingColor: #0f0f0f;
+  --borderColor: #c5c5c5;
+
+  --p: 1rem;
+  --p2: 1.1rem;
+  --p3: 1.2rem;
+
+  --h1: 2rem;
+  --h2: 1.8rem;
+  --h3: 1.5rem;
+  --h4: 1.2rem;
+
+  --a: 1.1rem;
+}
+
+/* ----------------------------- */
+
+/* common classses */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spaceBtw {
+  justify-content: space-between;
+}
+
+.alignStart {
+  align-items: flex-start;
+}
+
+.alignEnd {
+  align-items: flex-end;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+/* -------widths------------------ */
+
+.width100 {
+  width: 100%;
+}
+
+.maxWidth {
+  max-width: 1200px;
+}
+
+.width48 {
+  width: 48%;
+}
+
+.width49 {
+  width: 49%;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.width60 {
+  width: 60%;
+}
+
+.width90 {
+  width: 90%;
+}
+
+/* ---------borders----------------- */
+
+.border {
+  border: 1px solid;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #c5c5c5;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem 0;
+}
+
+.borderBottom2 {
+  border-bottom: 1px solid #c5c5c5;
+  width: 80%;
+  max-width: 1200px;
+  margin: 2rem 0;
+}
+
+.borderBottom3 {
+  border-bottom: 1px solid #c5c5c5;
+  width: 100%;
+  max-width: 1200px;
+  margin: 1rem 0;
+}
+
+/* --------------------margins----------------- */
+
+.noMargin {
+  margin: 0 !important;
+}
+
+.marginBottom1 {
+  margin: 0 0 1rem 0 !important;
+}
+
+.marginMore {
+  margin: 0 0 2rem 0 !important;
+}
+
+.margin1 {
+  margin: 0 0 1rem 0;
+}
+
+.margin2 {
+  margin: 0 0 2rem 0;
+}
+
+/* --------------------------------------------- */
+
+.textJustify {
+  text-align: justify;
+}
+
+/* ------------font weights--------------------------- */
+.font400 {
+  font-weight: 400;
+}
+
+.font500 {
+  font-weight: 500;
+}
+
+.font600 {
+  font-weight: 600;
+}
+
+/* ---------------------------------------------- */
+
+/* ...................................... */
+/* 404 page not found styling */
+
+.errorPage {
+  height: 80vh;
+}
+
+.errorPage .errorPageContainer h1 {
+  font-size: 2.5rem;
+  margin: 0 0 4rem 0;
+}
+
+.errorPage .errorPageContainer .errorIcon {
+  font-size: 5rem;
+  margin: 0 0 4rem 0;
+  opacity: 0.5;
+}
+
+.errorPage .errorPageContainer .errorBtns .errorBtn {
+  width: 5rem;
+  border: 1px solid var(--black);
+  background-color: var(--black);
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.errorPage .errorPageContainer .errorBtns .errorBtn:hover {
+  background-color: var(--white);
+  transition: 0.3s;
+}
+
+.errorPage .errorPageContainer .errorBtns .errorBtn a {
+  padding: 0.5rem;
+  color: var(--white);
+}
+
+.errorPage .errorPageContainer .errorBtns .errorBtn:hover a {
+  color: var(--black);
+  transition: 0.3s;
+}
+
+/* -------------------------------------- */
+
+/* @media screen and (min-width: 300px) and (max-width: 480px) {
+  p {
+    line-height: 1.5rem;
+  }
+} */
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .borderBottom {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .borderBottom {
+    width: 90%;
+  }
+}

@@ -1,0 +1,27 @@
+.contactSection .contactSContainer {
+  /* background: url(../../../public/contactbg.png); */
+  background-color: var(--headingColor);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
+  border-radius: 0.2rem;
+}
+
+.contactSection .contactSContainer h2 {
+  font-weight: 500;
+  color: var(--white);
+  margin: 0 0 1rem 0;
+}
+
+.contactSection .contactSContainer h3 {
+  font-weight: 400;
+  color: var(--white);
+}
+
+.contactSection .contactSContainer h3 a {
+  color: var(--white);
+}
+
+.contactSIcon {
+  margin: 0 0 -0.18rem 0;
+}

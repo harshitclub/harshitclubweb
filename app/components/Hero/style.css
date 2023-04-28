@@ -1,0 +1,86 @@
+.hero {
+  height: 60vh;
+  background: url(../../../public/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0 0 0;
+}
+
+.hero .heroContainer {
+  height: 80%;
+}
+
+.hero .heroContainer h1 {
+  font-size: 3rem;
+  color: var(--headingColor);
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.hero .heroContainer h2 {
+  font-weight: 500;
+  font-size: var(--h4);
+  color: var(--headingColor);
+  width: 70%;
+}
+
+.hero .heroContainer p {
+  color: var(--textColor);
+}
+
+.hero .heroContainer .heroBtns .heroBtn a {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 0.5rem;
+  border: 1px solid var(--black);
+  transition: 0.3s;
+  margin: 0 1rem 0 0;
+  border-radius: 0.2rem;
+}
+
+.hero .heroContainer .heroBtns .heroBtn a:hover {
+  background-color: transparent;
+  color: var(--black);
+}
+
+.heroRBtnIcon {
+  margin: 0 0 -0.12rem 0;
+}
+
+.hero .heroArrow {
+  height: 5rem;
+}
+
+.hero .hero-arrow {
+  font-size: var(--h2);
+  color: var(--black);
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .hero .heroContainer h1 {
+    font-size: 2rem;
+  }
+
+  .hero .heroContainer h2 {
+    width: 100%;
+    text-align: justify;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hero {
+    height: 50vh;
+  }
+  .hero .heroContainer h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero .heroContainer h2 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .hero .heroContainer p {
+    font-size: 1.2rem;
+  }
+}

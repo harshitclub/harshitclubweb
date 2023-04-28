@@ -1,0 +1,53 @@
+.pPolicy .pPolicyHeader {
+  background: url(../../public/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  padding: 4rem 0 0 0;
+  margin: 0 0 1rem 0;
+}
+
+.pPolicy .pPolicyHeader h1 {
+  color: var(--headingColor);
+  font-size: var(--h1);
+  font-weight: 500;
+}
+
+.pPolicy .pPolicyContainer {
+  width: 60%;
+  margin: 0 0 2rem 0;
+}
+
+.pPolicy .pPolicyContainer h2 {
+  font-weight: 500;
+  margin: 0 0 0.3rem 0;
+}
+
+.pPolicy .pPolicyContainer p {
+  margin: 0 0 1rem 0;
+}
+
+.pPolicy .pPolicyContainer p a {
+  color: var(--black);
+}
+
+.pPolicy .pPolicyContainer ul {
+  list-style: disc;
+  margin: 0 0 1rem 0;
+}
+
+.pPolicy .pPolicyContainer ul li {
+  margin: 0 0 0.5rem 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .pPolicy .pPolicyContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .pPolicy .pPolicyContainer {
+    width: 90%;
+  }
+}

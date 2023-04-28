@@ -1,0 +1,115 @@
+footer {
+  background-color: var(--headingColor);
+  padding: 1rem 0;
+}
+
+footer .footerContainer {
+  padding: 0 0 1rem 0;
+  margin: 0 0 1rem 0;
+  border-bottom: 1px solid var(--white);
+}
+
+footer .footerContainer .footerTab {
+  width: 24%;
+}
+
+footer .footerContainer .footerTab h2 {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem 0;
+}
+
+footer .footerContainer .footerTab p {
+  color: var(--white);
+  text-align: justify;
+}
+
+footer .footerContainer .footerTab ul li {
+  margin: 0 0 0.2rem 0;
+}
+
+footer .footerContainer .footerTab ul li a {
+  color: var(--white);
+}
+
+footer .footerContainer .footerTab ul li a:hover {
+  color: var(--offWhite);
+  transition: 0.3s;
+}
+
+footer .footerContainer .footerTab ul li a span {
+  margin: 0 0.2rem 0 0;
+  color: var(--offWhite);
+}
+
+footer .footerContainer .footerTab p a {
+  color: var(--white);
+}
+
+/* copyright */
+footer .copyRight p {
+  color: var(--white);
+}
+
+footer .copyRight p a {
+  color: var(--white);
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  footer .footerContainer {
+    flex-direction: column;
+  }
+
+  footer .footerContainer .footerTab {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+  .fContactMail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1px solid var(--white);
+    padding: 1rem 0 0 0;
+    margin: 0 0 1rem 0 !important;
+  }
+
+  footer .footerContainer .footerTab h2 {
+    font-size: 1.3rem;
+  }
+
+  footer .copyRight p {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  footer .footerContainer {
+    flex-direction: column;
+  }
+
+  footer .footerContainer .footerTab {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+  .fContactMail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1px solid var(--white);
+    padding: 1rem 0 0 0;
+    margin: 0 0 1rem 0 !important;
+  }
+
+  footer .footerContainer .footerTab h2 {
+    font-size: 1.3rem;
+  }
+
+  footer .copyRight p {
+    text-align: center;
+  }
+}
