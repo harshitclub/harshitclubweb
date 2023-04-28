@@ -5,6 +5,8 @@ import "./style.css";
 import { HarshitLogo } from "../HarshitLogo/Logo";
 import { HarshitLogoW } from "../HarshitLogo/Logo";
 import { BiMenu } from "react-icons/bi";
+import { BsDownload } from "react-icons/bs";
+import { RiExternalLinkLine } from "react-icons/ri";
 
 const Navbar = () => {
   const [color, setColor] = useState(false);
@@ -61,7 +63,15 @@ const Navbar = () => {
                 <a href="/contact">Contact</a>
               </li>
               <li className="navMail">
-                <a href="mailto:harshitclub@gmail.com">Mail</a>
+                <a href="mailto:harshitclub@gmail.com">
+                  Mail <RiExternalLinkLine className="navMailIcon" />
+                </a>
+              </li>
+              <li className="navMail mNavResume">
+                <a href="/">
+                  Resume &nbsp;
+                  <BsDownload className="navResumeIcon" />
+                </a>
               </li>
             </ul>
           </div>

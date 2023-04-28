@@ -37,9 +37,13 @@ nav .navContainer {
   border-bottom: 1px solid var(--borderColor);
 }
 
+nav .navContainer .menu ul {
+  gap: 2rem;
+}
+
 nav .navContainer .menu ul li a {
   color: var(--headingColor);
-  margin: 0 1.5rem 0 0;
+  /* margin: 0 1.5rem 0 0; */
   font-size: var(--p);
   font-weight: 500;
 }
@@ -82,10 +86,33 @@ nav .navContainer .rMenuBtn {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    gap: 0;
     width: 50%;
   }
   nav .navContainer .menu ul .navMail {
     display: block;
+  }
+
+  .navMailIcon {
+    margin: 0 0 -0.1rem 0;
+  }
+
+  nav .navContainer .menu ul .mNavResume a {
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    color: var(--headingColor);
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+  }
+
+  nav .navContainer .menu ul .mNavResume a:hover {
+    background-color: var(--headingColor);
+    transition: 0.3s;
+    color: var(--white);
+  }
+
+  nav .navContainer .menu ul .mNavResume a .navResumeIcon {
+    margin: 0 0 -0.08rem 0;
   }
 
   nav .navContainer .menu ul li {
@@ -129,6 +156,7 @@ nav .navContainer .rMenuBtn {
     align-items: flex-start;
     justify-content: flex-start;
     width: 50%;
+    gap: 0;
   }
   nav .navContainer .menu ul .navMail {
     display: block;
