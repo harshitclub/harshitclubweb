@@ -1,7 +1,12 @@
 .contact .contactHeader {
-  background: url(../../public/herobg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgb(211, 211, 211);
+  background: linear-gradient(
+    90deg,
+    rgba(211, 211, 211, 1) 0%,
+    rgba(232, 232, 232, 1) 68%,
+    rgba(249, 249, 249, 0.9304096638655462) 94%,
+    rgba(255, 255, 255, 0.9500175070028011) 100%
+  );
   height: 25vh;
   padding: 4rem 0 0 0;
 }
