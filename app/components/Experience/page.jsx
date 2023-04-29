@@ -30,7 +30,7 @@ export default function Experience() {
               Duration
               <RiArrowDropDownLine className="exHeadIcons" />
             </h3>
-            <p>2023 May - Current</p>
+            <p>2022 May - Current</p>
             <h3>
               Skills Used
               <RiArrowDropDownLine className="exHeadIcons" />

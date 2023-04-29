@@ -101,7 +101,7 @@ export default function About() {
             </span>
           </p>
           <p>
-            Duration: <span>[May 2023 - Current]</span>
+            Duration: <span>[May 2022 - Current]</span>
           </p>
         </div>
         <div className="borderBottom3"></div>
