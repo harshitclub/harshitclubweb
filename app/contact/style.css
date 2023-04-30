@@ -22,49 +22,6 @@
   margin: 4rem 0 4rem 0;
 }
 
-.contact .contactContainer .contactCLeft form .cInputs {
-  margin: 0 0 1rem 0;
-}
-
-.contact .contactContainer .contactCLeft form input {
-  padding: 0.5rem;
-  font-size: 1rem;
-  outline: none;
-  border: 1px solid var(--borderColor);
-  border-radius: 0.2rem;
-}
-
-.contact .contactContainer .contactCLeft form input[type="submit"] {
-  background-color: var(--headingColor);
-  color: var(--white);
-  border: 1px solid var(--headingColor);
-  cursor: pointer;
-  border-radius: 0.2rem;
-}
-
-.contact .contactContainer .contactCLeft form input[type="submit"]:hover {
-  background-color: var(--white);
-  color: var(--headingColor);
-  transition: 0.3s;
-}
-
-.contact .contactContainer .contactCLeft form select {
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  font-size: 1rem;
-  outline: none;
-  border: 1px solid var(--borderColor);
-  background-color: var(--white);
-}
-
-.contact .contactContainer .contactCLeft form textarea {
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  font-size: 1rem;
-  outline: none;
-  border: 1px solid var(--borderColor);
-}
-
 .contact .contactContainer .borderRight {
   border-right: 1px solid #c5c5c5;
   height: 22.5rem;

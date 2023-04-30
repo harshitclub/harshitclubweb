@@ -1,0 +1,42 @@
+form .cInputs {
+  margin: 0 0 1rem 0;
+}
+
+form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid var(--borderColor);
+  border-radius: 0.2rem;
+}
+
+form input[type="submit"] {
+  background-color: var(--headingColor);
+  color: var(--white);
+  border: 1px solid var(--headingColor);
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+form input[type="submit"]:hover {
+  background-color: var(--white);
+  color: var(--headingColor);
+  transition: 0.3s;
+}
+
+form select {
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid var(--borderColor);
+  background-color: var(--white);
+}
+
+form textarea {
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid var(--borderColor);
+}
