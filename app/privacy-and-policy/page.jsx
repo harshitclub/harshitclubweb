@@ -25,7 +25,7 @@ export default function Privacy() {
           how we use it.
         </p>
         <p>
-          If you have additional questions or require more information about our
+          If you have additional question or require more information about our
           Privacy Policy, do not hesitate to contact us.
         </p>
         <p>

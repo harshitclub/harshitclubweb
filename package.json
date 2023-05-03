@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/loader": "^2.3.0",
     "@next/mdx": "^13.3.1",
     "@vercel/analytics": "^1.0.0",
+    "gray-matter": "^4.0.3",
     "next": "^13.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
