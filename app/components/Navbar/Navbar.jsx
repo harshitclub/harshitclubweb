@@ -13,10 +13,13 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
+    navigator.vibrate(100);
     if (showMenu === false) {
       setShowMenu(true);
+      document.body.style.overflow = "hidden";
     } else {
       setShowMenu(false);
+      document.body.style.overflow = "auto";
     }
   };
 
