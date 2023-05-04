@@ -5,6 +5,7 @@
 }
 
 .sNav .navContainer {
+  /* backdrop-filter: blur(1px); */
   border: none;
 }
 
