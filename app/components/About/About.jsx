@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import Link from "next/link";
-
+import { vibrate } from "../Vibrate/Vibrate";
 export default function About() {
   return (
     <section className="aboutSection with100 flex flexColumn">
@@ -28,12 +28,12 @@ export default function About() {
         </p>
         <div className="aboutSBtns flex">
           <div className="aboutSbtn">
-            <Link href="/about">
+            <Link href="/about" onClick={vibrate}>
               <button>Know More</button>
             </Link>
           </div>
           <div className="aboutSbtn">
-            <Link href="/contact">
+            <Link href="/contact" onClick={vibrate}>
               <button>Contact</button>
             </Link>
           </div>

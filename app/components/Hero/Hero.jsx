@@ -3,6 +3,7 @@ import "./style.css";
 import Link from "next/link";
 import { BsDownload } from "react-icons/bs";
 import { RiExternalLinkLine } from "react-icons/ri";
+import { vibrate } from "../Vibrate/Vibrate";
 
 export default function Hero() {
   return (
@@ -16,14 +17,14 @@ export default function Hero() {
 
         <div className="heroBtns flex">
           <div className="heroBtn">
-            <Link href="mailto:harshitclub@gmail.com">
+            <Link href="mailto:harshitclub@gmail.com" onClick={vibrate}>
               &nbsp;Mail <RiExternalLinkLine className="heroRBtnIcon" />
               &nbsp;
             </Link>
           </div>
 
           <div className="heroBtn">
-            <Link href="/">
+            <Link href="/" onClick={vibrate}>
               Resume <BsDownload className="heroRBtnIcon" />
             </Link>
           </div>

@@ -1,6 +1,7 @@
 // "use client";
 import React from "react";
 import "./style.css";
+import { vibrate } from "../Vibrate/Vibrate";
 
 function ContactForm() {
   return (
@@ -54,7 +55,7 @@ function ContactForm() {
       </div>
       <div className=" flex width100">
         <div className="width100">
-          <input type="submit" className="width100" />
+          <input type="submit" className="width100" onClick={vibrate} />
         </div>
       </div>
     </form>

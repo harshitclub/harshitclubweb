@@ -9,6 +9,7 @@ import {
   RiTwitterFill,
 } from "react-icons/ri";
 import { BsDownload } from "react-icons/bs";
+import { vibrate } from "../components/Vibrate/Vibrate";
 
 export const metadata = {
   title: "About - Harshit Kumar Full Stack Web Developer",
@@ -94,7 +95,11 @@ export default function About() {
           <p>
             Company:{" "}
             <span>
-              <Link href="https://3alearningsolutions.com" target="_blank">
+              <Link
+                href="https://3alearningsolutions.com"
+                target="_blank"
+                onClick={vibrate}
+              >
                 3a Learning Solutions Pvt. Ltd
                 <RiExternalLinkLine className="aboutExperienceIcon" />
               </Link>
@@ -177,7 +182,7 @@ export default function About() {
         <div className="aboutResume noMargin">
           <h2>Download My Resume</h2>
           <button>
-            <Link href="/">
+            <Link href="/" onClick={vibrate}>
               Download Resume <BsDownload className="aboutDResumeBtn" />
             </Link>
           </button>
@@ -187,22 +192,38 @@ export default function About() {
           <h2>My Social Profiles</h2>
           <div className="aboutSIcons flex alignStart width100 justifyStart">
             <div className="aboutSIcon">
-              <Link href="https://github.com/harshitclub" target="_blank">
+              <Link
+                href="https://github.com/harshitclub"
+                target="_blank"
+                onClick={vibrate}
+              >
                 <RiGithubFill />
               </Link>
             </div>
             <div className="aboutSIcon">
-              <Link href="https://linkedin.com/in/harshitclub" target="_blank">
+              <Link
+                href="https://linkedin.com/in/harshitclub"
+                target="_blank"
+                onClick={vibrate}
+              >
                 <RiLinkedinBoxFill />
               </Link>
             </div>
             <div className="aboutSIcon">
-              <Link href="https://twitter.com/harshitclub" target="_blank">
+              <Link
+                href="https://twitter.com/harshitclub"
+                target="_blank"
+                onClick={vibrate}
+              >
                 <RiTwitterFill />
               </Link>
             </div>
             <div className="aboutSIcon">
-              <Link href="https://instagram.com/harshitclub" target="_blank">
+              <Link
+                href="https://instagram.com/harshitclub"
+                target="_blank"
+                onClick={vibrate}
+              >
                 <RiInstagramFill />
               </Link>
             </div>
@@ -213,7 +234,7 @@ export default function About() {
           <h2>My Email</h2>
           <p>
             Mail:{" "}
-            <Link href="mailto:harshitclub@gmail.com">
+            <Link href="mailto:harshitclub@gmail.com" onClick={vibrate}>
               harshitclub@gmail.com
               <RiExternalLinkLine className="aboutExperienceIcon" />
             </Link>
