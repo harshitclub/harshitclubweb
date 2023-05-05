@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import { RiExternalLinkLine } from "react-icons/ri";
 import Link from "next/link";
+import { vibrate } from "../Vibrate/Vibrate";
 
 export default function Contact() {
   return (
@@ -10,7 +11,7 @@ export default function Contact() {
         <h2>Get In Touch</h2>
         <h3>
           Mail:{" "}
-          <Link href="mailto:harshitclub@gmail.com">
+          <Link href="mailto:harshitclub@gmail.com" onClick={vibrate}>
             harshitclub@gmail.com{" "}
             <RiExternalLinkLine className="contactSIcon" />
           </Link>

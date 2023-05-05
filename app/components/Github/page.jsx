@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import { RiExternalLinkLine, RiGithubFill } from "react-icons/ri";
 import Link from "next/link";
+import { vibrate } from "../Vibrate/Vibrate";
 
 export default function Github() {
   return (
@@ -13,7 +14,11 @@ export default function Github() {
             <RiGithubFill />
           </div>
           <h3 className="marginMore">Hi 👋, I'm Harshit Kumar</h3>
-          <Link href="https://github.com/harshitclub" target="_blank">
+          <Link
+            href="https://github.com/harshitclub"
+            target="_blank"
+            onClick={vibrate}
+          >
             <button>
               Github Profile <RiExternalLinkLine className="githubSFollowBtn" />
             </button>

@@ -85,7 +85,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="projectShowMore width90 maxWidth">
-        <Link href="/projects">
+        <Link href="/projects" onClick={vibrate}>
           <button>
             Show All <RiExternalLinkLine className="showMoreIcon" />
           </button>

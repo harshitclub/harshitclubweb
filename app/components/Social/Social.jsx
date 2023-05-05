@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import { RiExternalLinkLine } from "react-icons/ri";
 import Link from "next/link";
+import { vibrate } from "../Vibrate/Vibrate";
 
 export default function Social() {
   return (
@@ -12,28 +13,44 @@ export default function Social() {
         <div className="socialSProfiles flex width100 spaceBtw">
           <div className="socialSProfile flex github">
             <h3>
-              <Link href="https://github.com/harshitclub" target="_blank">
+              <Link
+                href="https://github.com/harshitclub"
+                target="_blank"
+                onClick={vibrate}
+              >
                 Github <RiExternalLinkLine className="socialSIcons" />
               </Link>
             </h3>
           </div>
           <div className="socialSProfile flex linkedin">
             <h3>
-              <Link href="https://linkedin.com/in/harshitclub" target="_blank">
+              <Link
+                href="https://linkedin.com/in/harshitclub"
+                target="_blank"
+                onClick={vibrate}
+              >
                 LinkedIn <RiExternalLinkLine className="socialSIcons" />
               </Link>
             </h3>
           </div>
           <div className="socialSProfile flex twitter">
             <h3>
-              <Link href="https://twitter.com/harshitclub" target="_blank">
+              <Link
+                href="https://twitter.com/harshitclub"
+                target="_blank"
+                onClick={vibrate}
+              >
                 Twitter <RiExternalLinkLine className="socialSIcons" />
               </Link>
             </h3>
           </div>
           <div className="socialSProfile flex instagram">
             <h3>
-              <Link href="https://instagram.com/harshitclub" target="_blank">
+              <Link
+                href="https://instagram.com/harshitclub"
+                target="_blank"
+                onClick={vibrate}
+              >
                 Instagram <RiExternalLinkLine className="socialSIcons" />
               </Link>
             </h3>
