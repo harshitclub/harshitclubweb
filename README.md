@@ -4,7 +4,6 @@
 
 <div align="center">
 
-![harshitclub logo](https://github.com/harshitclub/harshitclubweb/blob/main/public/harshitclub.svg "harshitclub logo")
 ![harshitclub](https://github.com/harshitclub/testing/blob/main/assets/harshitclub.png "harshitclub")
 
 </div>
