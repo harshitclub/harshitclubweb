@@ -14,7 +14,7 @@ Hi there, I'm Harshit Kumar, a Full Stack Web Developer with a passion for build
 </p>
 
 <p align="justify">
-As a Full Stack Web Developer, I understand the importance of creating a visually appealing and user-friendly website. That's why I put a lot of effort into designing my personal portfolio website - <a href="https://www.harshitclub.com" target="_blank">harshitclub.com</a>. I wanted to make sure that it was not only beautiful but also simple and elegant, so that it could easily grab the attention of anyone who visits it.
+As a Full Stack Web Developer, I know the importance of creating a visually appealing and user-friendly website. That's why I put a lot of effort into designing my personal portfolio website - <a href="https://www.harshitclub.com" target="_blank">harshitclub.com</a>. I wanted to make sure that it was not only beautiful but also simple and elegant, so that it could easily grab the attention of anyone who visits it.
 </p>
 
 <p align="justify">
