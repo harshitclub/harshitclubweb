@@ -90,7 +90,7 @@
   align-items: flex-start;
 }
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 480px) {
   .projects .projectsHeader h1 {
     font-size: 1.8rem;
   }

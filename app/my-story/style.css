@@ -39,7 +39,7 @@
   text-align: justify;
 }
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 480px) {
   .myStory .myStoryContainer {
     width: 90%;
   }

@@ -72,7 +72,7 @@
   color: var(--headingColor);
 }
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 480px) {
   .projectSParent {
     flex-direction: column;
     margin: 0;
