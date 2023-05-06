@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+// import { Metadata } from "next";
 
 export const metadata = {
   title: "Harshit Kumar - Full Stack Web Developer",
@@ -25,22 +26,15 @@ export const metadata = {
   alternates: {
     canonical: "https://www.harshitclub.com",
   },
-  openGraph: {
-    type: "website",
-    url: "https://harshitclub.com/",
-    title: "Harshit Kumar - Full Stack Web Developer",
-    siteName: "harshitclub",
-    description:
-      "Harshit Kumar Portfolio Website, a full stack web developer proficient in frontend and backend technologies like React, Next, Node, Express, JavaScript, TypeScript.",
-    locale: "en-US",
-  },
-  twitter: {
-    url: "https://harshitclub.com/",
-    title: "Harshit Kumar - Full Stack Web Developer",
-    description:
-      "Harshit Kumar Portfolio Website, a full stack web developer proficient in frontend and backend technologies like React, Next, Node, Express, JavaScript, TypeScript.",
-    creator: "Harshit Kumar",
-  },
+  // openGraph: {
+  //   type: "website",
+  //   url: "https://harshitclub.com/",
+  //   title: "Harshit Kumar - Full Stack Web Developer",
+  //   siteName: "harshitclub",
+  //   description:
+  //     "Harshit Kumar Portfolio Website, a full stack web developer proficient in frontend and backend technologies like React, Next, Node, Express, JavaScript, TypeScript.",
+  //   locale: "en-US",
+  // },
 };
 
 const poppins = Poppins({
