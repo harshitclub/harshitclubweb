@@ -3,7 +3,6 @@ import "./style.css";
 import { RiExternalLinkLine, RiGithubFill } from "react-icons/ri";
 import { allProjects } from "@/app/projects/projects.js";
 import Link from "next/link";
-import { vibrate } from "../Vibrate/Vibrate";
 
 const myProjects = allProjects.slice(0, 3);
 const myProjects2 = allProjects.slice(3, 6);
@@ -20,20 +19,12 @@ export default function Projects() {
                 <div className="projectSChild" key={project.id}>
                   <div className="projectSBtns flex width100 spaceBtw">
                     <div className="projectSBtn">
-                      <a
-                        href={project.codeLink}
-                        target="_blank"
-                        onClick={vibrate}
-                      >
+                      <a href={project.codeLink} target="_blank">
                         <RiGithubFill className="projectSIcons" />
                       </a>
                     </div>
                     <div className="projectSBtn">
-                      <a
-                        href={project.liveLink}
-                        target="_blank"
-                        onClick={vibrate}
-                      >
+                      <a href={project.liveLink} target="_blank">
                         <RiExternalLinkLine className="projectSIcons" />
                       </a>
                     </div>
@@ -55,20 +46,12 @@ export default function Projects() {
                 <div className="projectSChild" key={project.id}>
                   <div className="projectSBtns flex width100 spaceBtw">
                     <div className="projectSBtn">
-                      <a
-                        href={project.codeLink}
-                        target="_blank"
-                        onClick={vibrate}
-                      >
+                      <a href={project.codeLink} target="_blank">
                         <RiGithubFill className="projectSIcons" />
                       </a>
                     </div>
                     <div className="projectSBtn">
-                      <a
-                        href={project.liveLink}
-                        target="_blank"
-                        onClick={vibrate}
-                      >
+                      <a href={project.liveLink} target="_blank">
                         <RiExternalLinkLine className="projectSIcons" />
                       </a>
                     </div>
@@ -85,7 +68,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="projectShowMore width90 maxWidth">
-        <Link href="/projects" onClick={vibrate}>
+        <Link href="/projects">
           <button>
             Show All <RiExternalLinkLine className="showMoreIcon" />
           </button>

@@ -7,7 +7,6 @@ import { HarshitLogoW } from "../HarshitLogo/Logo";
 import { BiMenu } from "react-icons/bi";
 import { BsDownload } from "react-icons/bs";
 import { RiExternalLinkLine } from "react-icons/ri";
-import { vibrate } from "../Vibrate/Vibrate";
 
 const Navbar = () => {
   const [color, setColor] = useState(false);
@@ -41,9 +40,7 @@ const Navbar = () => {
       <nav className={`${color ? "sNav" : ""}`}>
         <div className="navContainer flex spaceBtw width90 maxWidth">
           <div className="navLogo flex ali">
-            <a href="/" onClick={vibrate}>
-              {color ? <HarshitLogoW /> : <HarshitLogo />}
-            </a>
+            <a href="/">{color ? <HarshitLogoW /> : <HarshitLogo />}</a>
           </div>
           <button className="rMenuBtn">
             <BiMenu onClick={toggleMenu} />
@@ -51,42 +48,30 @@ const Navbar = () => {
           <div className={`menu ${showMenu ? "showNav" : ""}`}>
             <ul className="flex">
               <li>
-                <a href="/" onClick={vibrate}>
-                  Home
-                </a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="/skills" onClick={vibrate}>
-                  Skills
-                </a>
+                <a href="/skills">Skills</a>
               </li>
               <li>
-                <a href="/projects" onClick={vibrate}>
-                  Projects
-                </a>
+                <a href="/projects">Projects</a>
               </li>
               <li>
-                <a href="/about" onClick={vibrate}>
-                  About
-                </a>
+                <a href="/about">About</a>
               </li>
               <li>
-                <a href="/my-story" onClick={vibrate}>
-                  My Story
-                </a>
+                <a href="/my-story">My Story</a>
               </li>
               <li>
-                <a href="/contact" onClick={vibrate}>
-                  Contact
-                </a>
+                <a href="/contact">Contact</a>
               </li>
               <li className="navMail">
-                <a href="mailto:harshitclub@gmail.com" onClick={vibrate}>
+                <a href="mailto:harshitclub@gmail.com">
                   Mail <RiExternalLinkLine className="navMailIcon" />
                 </a>
               </li>
               <li className="navMail mNavResume">
-                <a href="/" onClick={vibrate}>
+                <a href="/">
                   Resume &nbsp;
                   <BsDownload className="navResumeIcon" />
                 </a>

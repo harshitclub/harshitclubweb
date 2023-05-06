@@ -8,7 +8,6 @@ import {
 } from "react-icons/ri";
 import Link from "next/link";
 import ContactForm from "../components/ContactForm/ContactForm";
-import { vibrate } from "../components/Vibrate/Vibrate";
 
 export const metadata = {
   title: "Contact - Harshit Kumar Full Stack Web Developer",
@@ -44,42 +43,29 @@ export default function Contact() {
                 <Link
                   href="https://linkedin.com/in/harshitclub"
                   target="_blank"
-                  onClick={vibrate}
                 >
                   <RiLinkedinBoxFill />
                 </Link>
               </div>
               <div className="contactSIcons">
-                <Link
-                  href="https://github.com/harshitclub"
-                  target="_blank"
-                  onClick={vibrate}
-                >
+                <Link href="https://github.com/harshitclub" target="_blank">
                   <RiGithubFill />
                 </Link>
               </div>
               <div className="contactSIcons">
-                <Link
-                  href="https://twitter.com/harshitclub"
-                  target="_blank"
-                  onClick={vibrate}
-                >
+                <Link href="https://twitter.com/harshitclub" target="_blank">
                   <RiTwitterFill />
                 </Link>
               </div>
               <div className="contactSIcons">
-                <Link
-                  href="https://instagram.com/harshitclub"
-                  target="_blank"
-                  onClick={vibrate}
-                >
+                <Link href="https://instagram.com/harshitclub" target="_blank">
                   <RiInstagramFill />
                 </Link>
               </div>
             </div>
 
             <h3>
-              <Link href="mailto:harshitclub@gmail.com" onClick={vibrate}>
+              <Link href="mailto:harshitclub@gmail.com">
                 harshitclub@gmail.com
               </Link>
             </h3>
