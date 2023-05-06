@@ -51,7 +51,7 @@
   margin: 0 0 -0.12rem 0;
 }
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 480px) {
   .hero {
     height: 40vh;
     padding: 6rem 0 0 0;

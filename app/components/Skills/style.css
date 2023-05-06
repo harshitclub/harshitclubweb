@@ -160,7 +160,7 @@
   display: none;
 }
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 480px) {
   .skillsSection .skillSectionContainer .skillSBoxes {
     display: none;
   }

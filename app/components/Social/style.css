@@ -64,7 +64,7 @@
   transition: 0.3s;
 }
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 200px) and (max-width: 480px) {
   .socialSection .socialSContainer .socialSProfiles {
     flex-direction: column;
   }
