@@ -199,6 +199,10 @@ select {
   text-align: justify;
 }
 
+.textCenter {
+  text-align: center;
+}
+
 /* ------------font weights--------------------------- */
 .font400 {
   font-weight: 400;
