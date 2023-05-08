@@ -40,3 +40,11 @@ form textarea {
   outline: none;
   border: 1px solid var(--borderColor);
 }
+
+form .contactSent {
+  color: green;
+}
+
+form .contactError {
+  color: red;
+}
