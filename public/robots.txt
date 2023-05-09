@@ -1,1 +1,2 @@
+Disallow: /messages/
 Sitemap: https://www.harshitclub.com/sitemap.xml
