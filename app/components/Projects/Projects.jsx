@@ -20,11 +20,13 @@ export default function Projects() {
                   <div className="projectSBtns flex width100 spaceBtw">
                     <div className="projectSBtn">
                       <a href={project.codeLink} target="_blank">
+                        <span className="spanHidden">Github</span>
                         <RiGithubFill className="projectSIcons" />
                       </a>
                     </div>
                     <div className="projectSBtn">
                       <a href={project.liveLink} target="_blank">
+                        <span className="spanHidden">Live Link</span>
                         <RiExternalLinkLine className="projectSIcons" />
                       </a>
                     </div>
@@ -46,12 +48,14 @@ export default function Projects() {
                 <div className="projectSChild" key={project.id}>
                   <div className="projectSBtns flex width100 spaceBtw">
                     <div className="projectSBtn">
+                      <span className="spanHidden">Github</span>
                       <a href={project.codeLink} target="_blank">
                         <RiGithubFill className="projectSIcons" />
                       </a>
                     </div>
                     <div className="projectSBtn">
                       <a href={project.liveLink} target="_blank">
+                        <span className="spanHidden">Live Link</span>
                         <RiExternalLinkLine className="projectSIcons" />
                       </a>
                     </div>

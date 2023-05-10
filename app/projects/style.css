@@ -21,31 +21,6 @@
   margin: 1rem 0 2rem 0;
 }
 
-.projects .projectsContainer .projectSearchBox {
-  border-bottom: 1px solid var(--borderColor);
-  padding: 0 0 1rem 0;
-  margin: 0 0 1rem 0;
-}
-
-.projects .projectsContainer .projectSearchBox .projectSearchHeading h2 {
-  font-size: 1.4rem;
-  font-weight: 500;
-}
-
-.projects
-  .projectsContainer
-  .projectSearchBox
-  .selectItem
-  .searchProject
-  select {
-  padding: 0.5rem;
-  font-size: 1rem;
-  border: 1px solid var(--borderColor);
-  outline: none;
-  background-color: var(--white);
-  border-radius: 0.2rem;
-}
-
 .allProjectsTab .allProjectBox {
   width: 32%;
   color: var(--headingColor);
@@ -71,6 +46,10 @@
 .allProjectsTab .allProjectBox .allProjectBtns .allProjectBtn a {
   color: var(--textColor);
   font-size: 1.4rem;
+}
+
+.allProjectsTab .allProjectBox .allProjectBtns .allProjectBtn a span {
+  display: none;
 }
 
 .allProjectsTab .allProjectBox h3 {

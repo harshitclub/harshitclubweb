@@ -20,14 +20,6 @@ export default function Projects() {
         <h1>Harshit Kumar Projects</h1>
       </section>
       <section className="projectsContainer flex flexColumn alignStart maxWidth width90">
-        {/* <div className="projectSearchBox flex spaceBtw width100 maxwidth">
-          <div className="projectSearchHeading">
-            <h2>Filter Projects By Selecting Skills</h2>
-          </div>
-          <div className="selectItem">
-            <SearchProject />
-          </div>
-        </div> */}
         <div className="allProjectsTab flex">
           {allProjects.map((project) => {
             return (
@@ -36,11 +28,13 @@ export default function Projects() {
                   <div className="allProjectBtns flex width100 spaceBtw">
                     <div className="allProjectBtn">
                       <a href={project.codeLink} target="_blank">
+                        <span>Code Link</span>
                         <RiGithubFill className="projectSIcons" />
                       </a>
                     </div>
                     <div className="allProjectBtn">
                       <a href={project.liveLink} target="_blank">
+                        <span>Live Link</span>
                         <RiExternalLinkLine className="projectSIcons" />
                       </a>
                     </div>

@@ -41,9 +41,9 @@ const Navbar = () => {
           <div className="navLogo flex ali">
             <a href="/">{color ? <HarshitLogoW /> : <HarshitLogo />}</a>
           </div>
-          <button className="rMenuBtn">
+          <div className="rMenuBtn">
             <BiMenu onClick={toggleMenu} />
-          </button>
+          </div>
           <div className={`menu ${showMenu ? "showNav" : ""}`}>
             <ul className="flex">
               <li>
