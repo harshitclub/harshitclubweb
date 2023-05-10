@@ -13,6 +13,7 @@ function ContactForm() {
     reason: "",
     message: "",
   });
+  const [isLoading, setIsLoading] = useState(false);
   const [status, setStatus] = useState(null);
 
   const handleChange = (e) => {
@@ -24,6 +25,7 @@ function ContactForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -58,6 +60,7 @@ function ContactForm() {
     } catch (error) {
       console.log(error);
     }
+    setIsLoading(false);
   };
 
   return (
@@ -70,6 +73,7 @@ function ContactForm() {
             name="name"
             value={message.name}
             onChange={handleChange}
+            required
           />
         </div>
         <div className="width49">
@@ -79,6 +83,7 @@ function ContactForm() {
             name="email"
             value={message.email}
             onChange={handleChange}
+            required
           />
         </div>
       </div>
@@ -129,6 +134,7 @@ function ContactForm() {
             name="reason"
             value={message.reason}
             onChange={handleChange}
+            required
           >
             <option>Select Reason For Contacting</option>
             <option>Services or pricing inquiry</option>
@@ -154,6 +160,7 @@ function ContactForm() {
             name="message"
             value={message.message}
             onChange={handleChange}
+            required
           />
         </div>
       </div>
@@ -175,7 +182,10 @@ function ContactForm() {
           ) : (
             ""
           )}
-          <input type="submit" className="width100" value="Send Message" />
+
+          <button type="submit" className="width100">
+            {isLoading ? "Sending..." : "Submit"}
+          </button>
         </div>
       </div>
     </form>
