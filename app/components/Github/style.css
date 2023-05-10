@@ -4,9 +4,16 @@
 }
 
 .githubSection .githubSContainer .githubSContent {
-  background: url("../../../public/githubbg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    80deg,
+    rgba(255, 255, 255, 1) 14%,
+    rgba(203, 206, 208, 1) 100%,
+    rgba(147, 152, 157, 0.9136904761904762) 100%,
+    rgba(92, 99, 107, 1) 100%,
+    rgba(21, 32, 43, 0.7120098039215687) 100%
+  );
+
   border: 1px solid var(--borderColor);
   border-radius: 0.2rem;
   padding: 2rem 0;
