@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import { RiExternalLinkLine } from "react-icons/ri";
 import Link from "next/link";
+import PageHeader from "../components/PageHeader/PageHeader";
 
 export const metadata = {
   title: "Skills - Harshit Kumar Full Stack Web Developer",
@@ -15,9 +16,7 @@ export const metadata = {
 export default function Skills() {
   return (
     <main className="skills flex flexColumn width100">
-      <section className="skillsHeader flex width100">
-        <h1>Harshit Kumar Skills</h1>
-      </section>
+      <PageHeader heading="Harshit Kumar Skills" />
       <section className="skillsContainer flex flexColumn maxWidth width90 alignStart">
         <div className="allSkills">
           <h2>Frontend</h2>

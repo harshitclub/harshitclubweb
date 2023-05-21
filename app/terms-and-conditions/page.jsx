@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import Link from "next/link";
+import PageHeader from "../components/PageHeader/PageHeader";
 
 export const metadata = {
   title: "Terms and Conditions",
@@ -14,9 +15,7 @@ export const metadata = {
 export default function Terms() {
   return (
     <main className="terms width100 flex flexColumn width100">
-      <section className="termsHeader width100 flex">
-        <h1>Terms & Conditions</h1>
-      </section>
+      <PageHeader heading="Terms & Conditions" />
       <section className="termsContainer maxWidth flex flexColumn alignStart">
         <h2>Introduction</h2>
         <p>

@@ -8,6 +8,7 @@ import {
 } from "react-icons/ri";
 import Link from "next/link";
 import ContactForm from "../components/ContactForm/ContactForm";
+import PageHeader from "../components/PageHeader/PageHeader";
 
 export const metadata = {
   title: "Contact - Harshit Kumar Full Stack Web Developer",
@@ -21,9 +22,7 @@ export const metadata = {
 export default function Contact() {
   return (
     <main className="contact flex flexColumn width100">
-      <section className="contactHeader flex width100">
-        <h1>Reach Out To Me</h1>
-      </section>
+      <PageHeader heading="Reach Out To Me" />
       <section className="contactContainer flex alignStart maxWidth spaceBtw">
         <div className="contactCLeft width49">
           <ContactForm />

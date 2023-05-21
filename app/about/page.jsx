@@ -9,6 +9,7 @@ import {
   RiTwitterFill,
 } from "react-icons/ri";
 import { BsDownload } from "react-icons/bs";
+import PageHeader from "../components/PageHeader/PageHeader";
 
 export const metadata = {
   title: "About - Harshit Kumar Full Stack Web Developer",
@@ -22,9 +23,7 @@ export const metadata = {
 export default function About() {
   return (
     <main className="about flex flexColumn width100">
-      <section className="aboutHeader flex width100">
-        <h1>About Harshit Kumar</h1>
-      </section>
+      <PageHeader heading="About Harshit Kumar" />
       <section className="aboutContainer flex flexColumn maxWidth alignStart width60">
         <p>
           Hi, I am Harshit Kumar, born and raised in the vibrant city of Meerut,

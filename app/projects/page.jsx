@@ -3,6 +3,7 @@ import "./style.css";
 // import SearchProject from "../components/SearchProject/SearchProject";
 import { RiExternalLinkLine, RiGithubFill } from "react-icons/ri";
 import { allProjects } from "./projects.js";
+import PageHeader from "../components/PageHeader/PageHeader";
 
 export const metadata = {
   title: "Projects - Harshit Kumar Full Stack Web Developer",
@@ -16,9 +17,7 @@ export const metadata = {
 export default function Projects() {
   return (
     <main className="projects flex flexColumn width100">
-      <section className="projectsHeader flex width100">
-        <h1>Harshit Kumar Projects</h1>
-      </section>
+      <PageHeader heading="Harshit Kumar Projects" />
       <section className="projectsContainer flex flexColumn alignStart maxWidth width90">
         <div className="allProjectsTab flex">
           {allProjects.map((project) => {

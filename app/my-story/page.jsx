@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import PageHeader from "../components/PageHeader/PageHeader";
 
 export const metadata = {
   title: "My Story - Harshit Kumar Full Stack Web Developer",
@@ -13,9 +14,7 @@ export const metadata = {
 function MyStory() {
   return (
     <main className="myStory flex flexColumn width100">
-      <section className="myStoryHeader flex width100">
-        <h1>Harshit Kumar Story</h1>
-      </section>
+      <PageHeader heading="Harshit Kumar Story" />
       <section className="myStoryContainer flex flexColumn maxWidth alignStart width60">
         <h2>Introduction</h2>
         <p>

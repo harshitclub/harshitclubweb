@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import PageHeader from "../components/PageHeader/PageHeader";
 
 export const metadata = {
   title: "Privacy & Policy",
@@ -13,9 +14,7 @@ export const metadata = {
 export default function Privacy() {
   return (
     <main className="pPolicy flex flexColumn width100">
-      <section className="pPolicyHeader width100 flex">
-        <h1>Privacy & Policy</h1>
-      </section>
+      <PageHeader heading="Privacy & Policy" />
       <section className="pPolicyContainer maxWidth flex flexColumn alignStart">
         <p>
           At harshitclub, accessible from{" "}
