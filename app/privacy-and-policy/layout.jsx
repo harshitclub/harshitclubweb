@@ -13,6 +13,7 @@ export default function PrivacyLayout({ children }) {
   return (
     <main className="pPolicy flex flexColumn width100">
       <PageHeader heading="Privacy & Policy" />
+      {children}
     </main>
   );
 }
