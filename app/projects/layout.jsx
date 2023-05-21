@@ -13,6 +13,7 @@ export default function ProjectsLayout({ children }) {
   return (
     <main className="projects flex flexColumn width100">
       <PageHeader heading="Harshit Kumar Projects" />
+      {children}
     </main>
   );
 }
