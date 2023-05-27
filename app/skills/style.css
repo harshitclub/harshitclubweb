@@ -2,25 +2,140 @@
   margin: 1rem 0 2rem 0;
 }
 
-.skills .skillsContainer .allSkills h2 {
+.skills .skillsContainer h2 {
+  font-size: 1.8rem;
   font-weight: 500;
-  font-size: var(--h4);
-  margin: 0 0 0.2rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
-.skills .skillsContainer .allSkills p {
+.skills .skillsContainer h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.skills .skillsContainer p {
+  text-align: justify;
   margin: 0 0 1rem 0;
 }
 
-.skills .skillsContainer .allSkills p span a {
-  color: var(--black);
+.skillsDivider {
+  width: 100%;
+  border-bottom: 1px dotted var(--black);
+  margin: 1rem 0;
 }
 
-.skills .skillsContainer .allSkills p span a:hover {
-  color: var(--offWhite);
-  transition: 0.3s;
+.skillHeadIcon {
+  margin: 0 0 -0.3rem 0;
 }
 
-.skills .skillsContainer .allSkills p span a .allSkillsIcon {
-  margin: 0 0 -0.15rem 0;
+.skillIcons {
+  margin: 0 0 -0.18rem 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .skills .skillsContainer h2 {
+    font-size: 1.5rem;
+  }
+
+  .skills .skillsContainer .programmingSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .programmingSkills > div {
+    width: 100%;
+  }
+
+  .skills .skillsContainer .frontendSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .frontendSkills > div {
+    width: 100%;
+  }
+
+  .skills .skillsContainer .backendSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .backendSkills > div {
+    width: 100%;
+  }
+
+  .skills .skillsContainer .dbSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .dbSkills > div {
+    width: 100%;
+  }
+
+  .skills .skillsContainer .testingSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .testingSkills > div {
+    width: 100%;
+  }
+
+  .skills .skillsContainer .deploymentSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .deploymentSkills > div {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .skills .skillsContainer h2 {
+    font-size: 1.5rem;
+  }
+
+  .skills .skillsContainer .programmingSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .programmingSkills > div {
+    width: 100%;
+  }
+
+  .skills .skillsContainer .frontendSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .frontendSkills > div {
+    width: 100%;
+  }
+
+  .skills .skillsContainer .backendSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .backendSkills > div {
+    width: 100%;
+  }
+
+  .skills .skillsContainer .dbSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .dbSkills > div {
+    width: 100%;
+  }
+
+  .skills .skillsContainer .testingSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .testingSkills > div {
+    width: 100%;
+  }
+
+  .skills .skillsContainer .deploymentSkills {
+    flex-direction: column;
+  }
+
+  .skills .skillsContainer .deploymentSkills > div {
+    width: 100%;
+  }
 }
