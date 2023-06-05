@@ -13,6 +13,18 @@ import {
   DiReact,
   DiSass,
 } from "react-icons/di";
+import {
+  SiAmazonaws,
+  SiCpanel,
+  SiExpress,
+  SiInsomnia,
+  SiJavascript,
+  SiNetlify,
+  SiNextdotjs,
+  SiPostman,
+  SiTypescript,
+  SiVercel,
+} from "react-icons/si";
 import { RiCodeSSlashFill } from "react-icons/ri";
 
 export default function Skills() {
@@ -24,7 +36,7 @@ export default function Skills() {
       <div className="programmingSkills flex alignStart justifyCenter spaceBtw width100">
         <div className="width48">
           <h3>
-            JavaScript <DiJavascript1 className="skillIcons" />
+            JavaScript <SiJavascript className="skillIcons" />
           </h3>
           <p>
             JavaScript is a widely used programming language that enables
@@ -35,7 +47,9 @@ export default function Skills() {
           </p>
         </div>
         <div className="width48">
-          <h3>TypeScript</h3>
+          <h3>
+            TypeScript <SiTypescript className="skillIcons" />
+          </h3>
           <p>
             TypeScript is a programming language that extends the capabilities
             of JavaScript by adding static typing. It allows developers to
@@ -67,7 +81,9 @@ export default function Skills() {
             that can be efficiently rendered and updated in response to changes
             in data.
           </p>
-          <h3>Next.js</h3>
+          <h3>
+            Next.js <SiNextdotjs className="skillIcons" />
+          </h3>
           <p>
             Next.js is a popular JavaScript framework built on top of React. It
             provides a powerful and feature-rich environment for developing
@@ -120,7 +136,9 @@ export default function Skills() {
           </p>
         </div>
         <div className="width48">
-          <h3>Express.js</h3>
+          <h3>
+            Express.js <SiExpress className="skillIcons" />
+          </h3>
           <p>
             Express.js is a popular web application framework for Node.js. It
             provides a simple and minimalistic approach to building web servers
@@ -161,7 +179,9 @@ export default function Skills() {
       </h2>
       <div className="testingSkills flex alignStart justifyCenter spaceBtw width100">
         <div className="width48">
-          <h3>Postman</h3>
+          <h3>
+            Postman <SiPostman className="skillIcons" />
+          </h3>
           <p>
             Postman is a popular collaboration platform and API development tool
             used by developers to simplify the process of testing and
@@ -169,7 +189,9 @@ export default function Skills() {
           </p>
         </div>
         <div className="width48">
-          <h3>Insomnia</h3>
+          <h3>
+            Insomnia <SiInsomnia className="skillIcons" />
+          </h3>
           <p>
             Insomnia is a powerful cross-platform API testing tool that helps
             developers streamline the process of testing and debugging APIs.
@@ -183,7 +205,7 @@ export default function Skills() {
       <div className="deploymentSkills flex alignStart justifyCenter spaceBtw width100">
         <div className="width48">
           <h3>
-            AWS <DiAws className="skillIcons" />
+            AWS <SiAmazonaws className="skillIcons" />
           </h3>
           <p>
             AWS (Amazon Web Services) is a comprehensive cloud computing
@@ -191,13 +213,17 @@ export default function Skills() {
             tools to help individuals and businesses build, deploy, and manage
             their applications and infrastructure in the cloud.
           </p>
-          <h3>Vercel</h3>
+          <h3>
+            Vercel <SiVercel className="skillIcons" />
+          </h3>
           <p>
             Vercel is a cloud-based hosting platform that specializes in static
             site hosting and serverless functions. It offers a seamless and
             efficient way to deploy and scale websites and web applications.
           </p>
-          <h3>cPanel</h3>
+          <h3>
+            cPanel <SiCpanel className="skillIcons" />
+          </h3>
           <p>
             cPanel is a web-based control panel that simplifies the management
             of web hosting services. It provides a graphical interface that
@@ -216,7 +242,9 @@ export default function Skills() {
             centralized repository where developers can store, share, and track
             changes to their codebase.
           </p>
-          <h3>Netlify</h3>
+          <h3>
+            Netlify <SiNetlify className="skillIcons" />
+          </h3>
           <p>
             Netlify is a cloud-based hosting platform that simplifies the
             process of deploying and managing static websites and web
