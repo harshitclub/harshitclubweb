@@ -69,6 +69,7 @@ function ContactForm() {
         <div className="width49">
           <input
             placeholder="Name*"
+            type="text"
             className="width100"
             name="name"
             value={message.name}
@@ -79,6 +80,7 @@ function ContactForm() {
         <div className="width49">
           <input
             placeholder="Email*"
+            type="email"
             className="width100"
             name="email"
             value={message.email}
@@ -91,6 +93,7 @@ function ContactForm() {
         <div className="width49">
           <input
             placeholder="Phone*"
+            type="number"
             className="width100"
             name="phone"
             value={message.phone}
@@ -101,6 +104,7 @@ function ContactForm() {
           <input
             placeholder="Website If Any"
             className="width100"
+            type="url"
             name="website"
             value={message.website}
             onChange={handleChange}
@@ -111,6 +115,7 @@ function ContactForm() {
         <div className="width49">
           <input
             placeholder="Country"
+            type="text"
             className="width100"
             name="country"
             value={message.country}
@@ -120,6 +125,7 @@ function ContactForm() {
         <div className="width49">
           <input
             placeholder="Company"
+            type="text"
             className="width100"
             name="company"
             value={message.company}
