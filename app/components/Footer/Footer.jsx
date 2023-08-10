@@ -69,8 +69,8 @@ export default function Footer() {
         <div className="footerTab fContactMail">
           <h2>Harshit Kumar</h2>
           <p>
-            <Link href="mailto:harshitclub@gmail.com">
-              harshitclub@gmail.com
+            <Link href="mailto:contact@harshitclub.com">
+              contact@harshitclub.com
             </Link>
           </p>
         </div>
