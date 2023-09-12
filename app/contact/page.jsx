@@ -49,8 +49,8 @@ export default function Contact() {
           </div>
 
           <h3>
-            <Link href="mailto:contact@harshitclub.com">
-              contact@harshitclub.com
+            <Link href="mailto:harshit@harshitclub.com">
+              harshit@harshitclub.com
             </Link>
           </h3>
 

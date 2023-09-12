@@ -10,8 +10,8 @@ export default function Contact() {
         <h2>Get In Touch</h2>
         <h3>
           Mail:{" "}
-          <Link href="mailto:contact@harshitclub.com">
-            contact@harshitclub.com{" "}
+          <Link href="mailto:harshit@harshitclub.com">
+            harshit@harshitclub.com{" "}
             <RiExternalLinkLine className="contactSIcon" />
           </Link>
         </h3>

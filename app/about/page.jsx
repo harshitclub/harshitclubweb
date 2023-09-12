@@ -199,8 +199,8 @@ export default function About() {
         <h2>My Email</h2>
         <p>
           Mail:{" "}
-          <Link href="mailto:contact@harshitclub.com">
-           contact@harshitclub.com
+          <Link href="mailto:harshit@harshitclub.com">
+            harshit@harshitclub.com
             <RiExternalLinkLine className="aboutExperienceIcon" />
           </Link>
         </p>

@@ -16,7 +16,7 @@ export default function Hero() {
 
         <div className="heroBtns flex">
           <div className="heroBtn">
-            <Link href="mailto:harshitclub@gmail.com">
+            <Link href="mailto:harshit@harshitclub.com">
               &nbsp;Mail <RiExternalLinkLine className="heroRBtnIcon" />
               &nbsp;
             </Link>
