@@ -104,7 +104,7 @@ function ContactForm() {
           <input
             placeholder="Website If Any"
             className="width100"
-            type="url"
+            type="text"
             name="website"
             value={message.website}
             onChange={handleChange}

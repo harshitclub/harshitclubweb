@@ -1,9 +1,9 @@
-import { connect } from "@/db/dbConfig";
-import Contact from "@/models/contact";
+// import { connect } from "@/db/dbConfig";
+// import Contact from "@/models/contact";
 import { sendEmail } from "@/helpers/mailer";
 import { NextRequest, NextResponse } from "next/server";
 
-connect();
+// connect();
 
 export async function POST(request: NextRequest) {
   try {
@@ -11,20 +11,20 @@ export async function POST(request: NextRequest) {
 
     const { name, email, phone, website, country, company, reason, message } =
       reqBody;
-    console.log(reqBody);
+    // console.log(reqBody);
 
-    const newContact = new Contact({
-      name,
-      email,
-      phone,
-      website,
-      country,
-      company,
-      reason,
-      message,
-    });
+    // const newContact = new Contact({
+    //   name,
+    //   email,
+    //   phone,
+    //   website,
+    //   country,
+    //   company,
+    //   reason,
+    //   message,
+    // });
 
-    const savedContact = await newContact.save();
+    // const savedContact = await newContact.save();
     await sendEmail({
       name: name,
       email: email,
@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       message: "Message Sent",
       success: true,
-      savedContact,
+      // savedContact,
     });
   } catch (error: any) {
     return NextResponse.json({ error: error.message }, { status: 500 });
