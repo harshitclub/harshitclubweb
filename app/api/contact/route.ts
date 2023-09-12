@@ -1,5 +1,3 @@
-// import { connect } from "@/db/dbConfig";
-// import Contact from "@/models/contact";
 import { sendEmail } from "@/helpers/mailer";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -11,20 +9,7 @@ export async function POST(request: NextRequest) {
 
     const { name, email, phone, website, country, company, reason, message } =
       reqBody;
-    // console.log(reqBody);
 
-    // const newContact = new Contact({
-    //   name,
-    //   email,
-    //   phone,
-    //   website,
-    //   country,
-    //   company,
-    //   reason,
-    //   message,
-    // });
-
-    // const savedContact = await newContact.save();
     await sendEmail({
       name: name,
       email: email,
