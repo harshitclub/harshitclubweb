@@ -23,21 +23,19 @@ export const sendEmail = async ({
 }: ContactProps) => {
   try {
     var transport = nodemailer.createTransport({
-      host: "smtp-mail.outlook.com",
-      port: 587,
+      host: "smtp.gmail.com",
+      port: 465,
+      service: "gmail",
       auth: {
         user: process.env.MAIL_USER,
         pass: process.env.MAIL_USER_PASSWORD,
       },
-      tls: {
-        rejectUnauthorized: false,
-      },
     });
 
     const mailOptions = {
-      from: "harshitclub@outlook.com",
-      to: "harshitclub@gmail.com",
-      subject: "harshitclub Contact",
+      from: `"Harshit Kumar" <gautamharshit538@gmail.com>`,
+      to: "harshit@harshitclub.com",
+      subject: "Website Contact Form",
       html: `
                   <html>
                   <body>

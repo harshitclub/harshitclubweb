@@ -1,8 +1,6 @@
 import { sendEmail } from "@/helpers/mailer";
 import { NextRequest, NextResponse } from "next/server";
 
-// connect();
-
 export async function POST(request: NextRequest) {
   try {
     const reqBody = await request.json();
@@ -23,7 +21,6 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       message: "Message Sent",
       success: true,
-      // savedContact,
     });
   } catch (error: any) {
     return NextResponse.json({ error: error.message }, { status: 500 });
