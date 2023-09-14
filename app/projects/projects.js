@@ -7,22 +7,24 @@ export const allProjects = [
     codeLink: "http://github.com/harshitkumar",
     liveLink: "https://harshitclub.com",
   },
+
   {
     id: 2,
-    title: "Haiwebtech Marketing",
-    desc: "Hai WebTech is a Digital Marketing website design that I build using core react.js.",
-    tech: `React.js | CSS | Github`,
-    codeLink: "https://github.com/harshitclub/haiwebtechfiles",
-    liveLink: "https://hai-web-tech.web.app/",
-  },
-  {
-    id: 3,
     title: "Women Empowerment NGO",
     desc: "This is Women Empowerment NGO Website Name `Chal Naari`, I build this for my Company.",
     tech: `Next.js | React.js | CSS | Express.js | Vercel`,
     codeLink: "http://github.com/harshitclub/chalnaariweb",
     liveLink: "https://chalnaari.vercel.app/",
   },
+  {
+    id: 3,
+    title: "Haiwebtech Marketing",
+    desc: "Hai WebTech is a Digital Marketing website design that I build using core react.js.",
+    tech: `React.js | CSS | Github`,
+    codeLink: "https://github.com/harshitclub/haiwebtechfiles",
+    liveLink: "https://hai-web-tech.web.app/",
+  },
+
   {
     id: 4,
     title: "Movie Search Website",

@@ -3,9 +3,9 @@ import Navbar from "./components/Navbar/Navbar";
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
-// import { Metadata } from "next";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Harshit Kumar - Full Stack Web Developer",
   creator: "Harshit Kumar",
   description:
@@ -23,18 +23,11 @@ export const metadata = {
     "Developer",
     "Portfolio",
   ],
-  alternates: {
-    canonical: "https://www.harshitclub.com",
+  openGraph: {
+    type: "website",
+    title: "Harshit Kumar - Full Stack Web Developer",
+    siteName: "harshitclub",
   },
-  // openGraph: {
-  //   type: "website",
-  //   url: "https://harshitclub.com/",
-  //   title: "Harshit Kumar - Full Stack Web Developer",
-  //   siteName: "harshitclub",
-  //   description:
-  //     "Harshit Kumar Portfolio Website, a full stack web developer proficient in frontend and backend technologies like React, Next, Node, Express, JavaScript, TypeScript.",
-  //   locale: "en-US",
-  // },
 };
 
 const poppins = Poppins({
@@ -43,7 +36,11 @@ const poppins = Poppins({
   display: "swap",
 });
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" className={poppins.className}>
       <body>
