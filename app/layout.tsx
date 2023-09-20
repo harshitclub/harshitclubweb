@@ -1,7 +1,7 @@
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import "./globals.css";
-import { Poppins } from "next/font/google";
+import { Poppins, Caveat } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 
@@ -36,13 +36,21 @@ const poppins = Poppins({
   display: "swap",
 });
 
+const caveat = Caveat({
+  weight: ["400", "500", "700"],
+  style: ["normal"],
+  variable: "--font-caveat",
+  subsets: ["latin"],
+  display: "swap",
+});
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={poppins.className}>
+    <html lang="en" className={`${poppins.className} ${caveat.variable}`}>
       <body>
         <Navbar />
         {children}

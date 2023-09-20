@@ -1,49 +1,48 @@
 .hero {
-  height: 70vh;
-  /* background: url(../../../public/herobg.png);
-  background-repeat: no-repeat;
-  background-size: cover; */
-  background: rgb(211, 211, 211);
-  background: linear-gradient(
-    90deg,
-    rgba(211, 211, 211, 1) 0%,
-    rgba(232, 232, 232, 1) 68%,
-    rgba(249, 249, 249, 0.9304096638655462) 94%,
-    rgba(255, 255, 255, 0.9500175070028011) 100%
-  );
-  padding: 4rem 0 0 0;
+  margin: 5rem 0 0 0;
 }
 
 .hero .heroContainer {
-  height: 80%;
+  padding: 1rem;
+  background-color: #111111;
+  height: 85vh;
+  border-radius: 0.2rem;
+  background-color: var(--black);
 }
 
 .hero .heroContainer h1 {
-  font-size: 2rem;
-  color: var(--headingColor);
+  font-size: 3rem;
+  color: var(--white);
   margin: 0 0 1rem 0;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.hero .heroContainer h1 span {
+  /* font-size: 2.5rem; */
+  font-weight: 400;
+  font-family: var(--font-caveat);
 }
 
 .hero .heroContainer h2 {
   font-weight: 500;
-  font-size: var(--h4);
-  color: var(--headingColor);
+  font-size: 1.5rem;
+  color: var(--white);
   width: 70%;
 }
 
 .hero .heroContainer .heroBtns .heroBtn a {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
   padding: 0.5rem;
   border: 1px solid var(--black);
   transition: 0.3s;
   margin: 0 1rem 0 0;
   border-radius: 0.2rem;
+  cursor: pointer;
 }
 
 .hero .heroContainer .heroBtns .heroBtn a:hover {
-  background-color: transparent;
+  background-color: var(--white);
   color: var(--black);
 }
 
@@ -53,11 +52,10 @@
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
   .hero {
-    height: 40vh;
-    padding: 6rem 0 0 0;
+    height: 50vh;
   }
   .hero .heroContainer h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .hero .heroContainer h2 {

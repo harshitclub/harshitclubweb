@@ -3,10 +3,10 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
 import { HarshitLogo } from "../HarshitLogo/Logo";
-import { HarshitLogoW } from "../HarshitLogo/Logo";
-import { BiMenu } from "react-icons/bi";
+import { BiFolder, BiInfoCircle, BiMenu, BiPhone } from "react-icons/bi";
 import { BsDownload } from "react-icons/bs";
 import { RiExternalLinkLine } from "react-icons/ri";
+import { DiCodeBadge } from "react-icons/di";
 
 const Navbar = () => {
   const [color, setColor] = useState(false);
@@ -36,33 +36,43 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className={`${color ? "sNav" : ""}`}>
+      <nav>
         <div className="navContainer flex spaceBtw width90 maxWidth">
           <div className="navLogo flex ali">
-            <a href="/">{color ? <HarshitLogoW /> : <HarshitLogo />}</a>
+            <a href="/">
+              <HarshitLogo />
+            </a>
           </div>
           <div className="rMenuBtn">
             <BiMenu onClick={toggleMenu} />
           </div>
           <div className={`menu ${showMenu ? "showNav" : ""}`}>
             <ul className="flex">
-              <li>
+              {/* <li>
                 <a href="/">Home</a>
+              </li> */}
+              <li>
+                <a href="/skills">
+                  <DiCodeBadge className="navIcons" /> Skills
+                </a>
               </li>
               <li>
-                <a href="/skills">Skills</a>
+                <a href="/projects">
+                  <BiFolder className="navIcons" /> Projects
+                </a>
               </li>
               <li>
-                <a href="/projects">Projects</a>
+                <a href="/about">
+                  <BiInfoCircle className="navIcons" /> About
+                </a>
               </li>
-              <li>
-                <a href="/about">About</a>
-              </li>
-              <li>
+              {/* <li>
                 <a href="/my-story">My Story</a>
-              </li>
+              </li> */}
               <li>
-                <a href="/contact">Contact</a>
+                <a href="/contact">
+                  <BiPhone className="navIcons" /> Contact
+                </a>
               </li>
               <li className="navMail">
                 <a href="mailto:harshitclub@gmail.com">

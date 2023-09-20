@@ -8,7 +8,11 @@ export default function Hero() {
   return (
     <section className="hero flex flexColumn spaceBtw width100">
       <div className="heroContainer flex flexColumn maxWidth width90 alignStart">
-        <h1>Harshit Kumar Web Developer</h1>
+        <h1>
+          Harshit Kumar
+          <br />
+          <span>Full-Stack Web Developer</span>
+        </h1>
         <h2 className="margin2">
           Hey There, I'm <span>Harshit Kumar</span>, web developer who creates
           dynamic real world websites and web applications.
@@ -27,6 +31,20 @@ export default function Hero() {
               Resume <BsDownload className="heroRBtnIcon" />
             </Link>
           </div>
+        </div>
+        <div className="area">
+          <ul className="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
         </div>
       </div>
     </section>
