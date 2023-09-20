@@ -1,6 +1,9 @@
+.contactSection {
+  margin: 0 0 1px 0;
+}
 .contactSection .contactSContainer {
   /* background: url(../../../public/contactbg.png); */
-  background-color: var(--headingColor);
+  background-color: var(--black);
   background-repeat: no-repeat;
   background-size: cover;
   height: 15rem;
@@ -9,7 +12,7 @@
 
 .contactSection .contactSContainer h2 {
   font-weight: 500;
-  color: var(--white);
+  color: var(--textWhite);
   margin: 0 0 1rem 0;
 }
 

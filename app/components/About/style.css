@@ -1,3 +1,7 @@
+.aboutSection {
+  margin: 0 0 2rem 0;
+}
+
 .aboutSection .aboutSContainer {
   background: url(../../../public/aboutbg.svg);
   background-repeat: no-repeat;

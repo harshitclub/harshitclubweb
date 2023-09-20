@@ -1,3 +1,6 @@
+.exSection {
+  margin: 0 0 2rem 0;
+}
 .exSection .exSContainer {
   border-radius: 0.2rem;
 }

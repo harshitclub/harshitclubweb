@@ -1,3 +1,7 @@
+.projectSection {
+  margin: 0 0 2rem 0;
+}
+
 .projectSection .projectSContainer h2 {
   color: var(--headingColor);
   font-size: 1.4rem;

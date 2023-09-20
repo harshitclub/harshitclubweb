@@ -7,7 +7,6 @@ export default function Github() {
   return (
     <section className="githubSection flex width100 flexColumn">
       <div className="githubSContainer flex flexColumn maxWidth alignStart width90">
-        <h2 className=" font600 margin1">My Github Profile</h2>
         <div className="githubSContent flex flexColumn width100">
           <div className="githubSIcon">
             <RiGithubFill />
@@ -20,7 +19,6 @@ export default function Github() {
           </Link>
         </div>
       </div>
-      <div className="borderBottom"></div>
     </section>
   );
 }

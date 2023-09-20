@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="flex width100 flexColumn">
-      <div className="footerContainer flex spaceBtw width100  alignStart maxWidth width90">
+      <div className="footerContainer flex spaceBtw  alignStart maxWidth width90">
         <div className="footerTab">
-          <h2>Pages</h2>
+          <h2>Navigation</h2>
           <ul>
             <li>
               <Link href="/">Home</Link>
@@ -28,7 +28,7 @@ export default function Footer() {
         </div>
 
         <div className="footerTab">
-          <h2>Social</h2>
+          <h2>Follow Me</h2>
           <ul>
             <li>
               <Link href="https://linkedin.com/in/harshitclub" target="_blank">
@@ -75,7 +75,7 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      <div className="copyRight">
+      <div className="copyRight width90 maxWidth">
         <p>
           Copyright © 2023{" "}
           <Link href="https://harshitclub.com">harshitclub.com</Link> | All

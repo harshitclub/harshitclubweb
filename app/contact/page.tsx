@@ -11,7 +11,7 @@ import ContactForm from "../components/ContactForm/ContactForm";
 
 export default function Contact() {
   return (
-    <section className="contactContainer flex alignStart maxWidth spaceBtw">
+    <section className="contactContainer flex alignStart width100 maxWidth spaceBtw">
       <div className="contactCLeft width49">
         <ContactForm />
       </div>

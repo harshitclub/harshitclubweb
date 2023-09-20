@@ -59,14 +59,15 @@ select {
 
 /* variables */
 :root {
-  --black: #0a0a0a;
+  --black: #111111;
   --black2: #212121;
   --white: #ffffff;
+  --textWhite: #eff0f2;
   --offWhite: #bfbfbf;
   --grey: #c5c5c5;
 
   --textColor: #282c35;
-  --headingColor: #0f0f0f;
+  --headingColor: #111111;
   --borderColor: #c5c5c5;
 
   --p: 1rem;
@@ -121,7 +122,7 @@ select {
 }
 
 .maxWidth {
-  max-width: 1200px;
+  max-width: 1350px;
 }
 
 .width48 {
@@ -153,7 +154,6 @@ select {
 .borderBottom {
   border-bottom: 1px solid #c5c5c5;
   width: 100%;
-  max-width: 1200px;
   margin: 2rem 0;
 }
 

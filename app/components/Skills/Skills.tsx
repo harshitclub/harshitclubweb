@@ -113,9 +113,7 @@ export default function Skills() {
             <h3>WordPress</h3>
           </div>
         </div>
-        {/* -------------- */}
       </div>
-      <div className="borderBottom"></div>
     </section>
   );
 }

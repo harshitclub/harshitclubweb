@@ -1,8 +1,5 @@
-.socialSection .socialSContainer h2 {
-  font-weight: 600;
-  margin: 0 0 1rem 0;
-  font-size: 1.4rem;
-  color: var(--headingColor);
+.socialSection {
+  margin: 0 0 2rem 0;
 }
 
 .socialSection .socialSContainer .socialSProfiles .socialSProfile {

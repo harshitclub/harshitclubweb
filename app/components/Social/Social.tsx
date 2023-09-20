@@ -7,8 +7,6 @@ export default function Social() {
   return (
     <section className="socialSection flex flexColumn width100">
       <div className="socialSContainer flex flexColumn alignStart maxWidth width90">
-        <h2>My Social Profiles</h2>
-
         <div className="socialSProfiles flex width100 spaceBtw">
           <div className="socialSProfile flex github">
             <h3>
@@ -40,7 +38,6 @@ export default function Social() {
           </div>
         </div>
       </div>
-      <div className="borderBottom"></div>
     </section>
   );
 }

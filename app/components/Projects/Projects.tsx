@@ -78,7 +78,6 @@ export default function Projects() {
           </button>
         </Link>
       </div>
-      <div className="borderBottom"></div>
     </section>
   );
 }

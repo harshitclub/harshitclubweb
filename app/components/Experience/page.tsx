@@ -42,49 +42,8 @@ export default function Experience() {
               MERN Stack.
             </p>
           </div>
-          {/* <table>
-            <tbody>
-              <tr>
-                <td className="font500">Position:</td>
-                <td>Web Developer</td>
-              </tr>
-              <tr>
-                <td className="font500">Company:</td>
-                <td>
-                  <Link href="https://3alearningsolutions.com">
-                    3a Learning Solutions India Pvt. Ltd{" "}
-                    <RiExternalLinkLine className="exIcon" />
-                  </Link>
-                </td>
-              </tr>
-              <tr>
-                <td className="font500">Duration:</td>
-                <td>2023 May - Current</td>
-              </tr>
-              <tr>
-                <td className="font500">Skills:</td>
-                <td>MERN Stack | Next.js | On-Page SEO</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td className="exDesc">
-                  Full Stack Web Developer in 3a Learning Solutions, Build and
-                  Manage Full Stack Professional Websites Specially in
-                  Javascript MERN Stack.
-                </td>
-              </tr>
-              <tr>
-                <td></td>
-                <td className="exDesc">
-                  Manage and Optimizes SEO of Websites for better ranking in
-                  Search Engines.
-                </td>
-              </tr>
-            </tbody>
-          </table> */}
         </div>
       </div>
-      <div className="borderBottom"></div>
     </section>
   );
 }
