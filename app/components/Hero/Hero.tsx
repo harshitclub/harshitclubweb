@@ -14,7 +14,7 @@ export default function Hero() {
           <span>Full-Stack Web Developer</span>
         </h1>
         <h2 className="margin2">
-          Hey There, I'm <span>Harshit Kumar</span>, web developer who creates
+          Hey There 👋, I'm <span>Harshit Kumar</span>, web developer who creates
           dynamic real world websites and web applications.
         </h2>
 
@@ -32,20 +32,7 @@ export default function Hero() {
             </Link>
           </div>
         </div>
-        <div className="area">
-          <ul className="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
+        
       </div>
     </section>
   );
