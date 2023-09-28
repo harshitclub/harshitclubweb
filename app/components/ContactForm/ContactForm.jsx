@@ -1,7 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import "./style.css";
-// import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
 
 function ContactForm() {
   const [message, setMessage] = useState({
@@ -24,24 +26,30 @@ function ContactForm() {
     setMessage((prevMessage) => ({ ...prevMessage, [name]: value }));
   };
 
+  let options = {
+    method: "POST",
+    url: "/api/contact",
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json;charset=UTF-8",
+    },
+    data: {
+      name: message.name,
+      email: message.email,
+      phone: message.phone,
+      website: message.website,
+      country: message.country,
+      company: message.company,
+      reason: message.reason,
+      message: message.message,
+    },
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { Content_Type: "application/json" },
-        body: JSON.stringify({
-          name: message.name,
-          email: message.email,
-          phone: message.phone,
-          website: message.website,
-          country: message.country,
-          company: message.company,
-          reason: message.reason,
-          message: message.message,
-        }),
-      });
+      let response = await axios(options);
       // Set the status based on the response from the API route
       if (response.status === 200) {
         setMessage({
@@ -54,11 +62,13 @@ function ContactForm() {
           reason: "",
           message: "",
         });
+        toast.success("Message Sent Successfully");
         setStatus("success");
       } else {
         setStatus("error");
       }
     } catch (error) {
+      toast.error("Something Went Wrong | Try Again!");
       console.log(error);
     }
     setIsLoading(false);
@@ -66,6 +76,7 @@ function ContactForm() {
 
   return (
     <form className="width100" onSubmit={handleSubmit}>
+      <ToastContainer />
       <div className="cInputs flex width100 spaceBtw">
         <div className="width49">
           <input
