@@ -1,9 +1,14 @@
 .socialSection {
-  margin: 0 0 2rem 0;
+  margin: 0 0 0.5px 0;
+}
+
+.socialSection .socialSContainer {
+  padding: 1rem;
+  border-radius: 0.2rem;
+  background-color: var(--black);
 }
 
 .socialSection .socialSContainer .socialSProfiles .socialSProfile {
-  border: 1px solid var(--borderColor);
   width: 24%;
   height: 4rem;
   transition: 0.3s;
@@ -11,18 +16,18 @@
 }
 
 .socialSection .socialSContainer .socialSProfiles .socialSProfile h3 a {
-  color: var(--headingColor);
+  color: var(--textWhite);
 }
 
 .socialSection .socialSContainer .socialSProfiles .socialSProfile:hover h3 a {
-  color: var(--white);
+  color: var(--textWhite);
   transition: 0.3s;
 }
 
 .socialSection .socialSContainer .socialSProfiles .socialSProfile h3 a {
   font-weight: 500;
   font-size: var(--a);
-  color: var(--headingColor);
+  color: var(--textWhite);
   padding: 0.5rem 3rem;
 }
 
@@ -30,34 +35,8 @@
   margin: 0 0 -0.15rem 0;
 }
 
-.socialSection .socialSContainer .socialSProfiles .github:hover {
-  background-color: #1d1a1a;
-  transition: 0.3s;
-}
-
-.socialSection .socialSContainer .socialSProfiles .linkedin:hover {
-  background-color: #008fdd;
-  border: 1px solid #008fdd;
-  transition: 0.3s;
-}
-
-.socialSection .socialSContainer .socialSProfiles .twitter:hover {
-  background-color: #00acee;
-  border: 1px solid #00acee;
-  transition: 0.3s;
-}
-
-.socialSection .socialSContainer .socialSProfiles .instagram:hover {
-  background: #d6249f;
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  border: 1px solid #fff;
+.socialSection .socialSContainer .socialSProfiles .socialSProfile:hover {
+  border: 1px dotted var(--textWhite);
   transition: 0.3s;
 }
 

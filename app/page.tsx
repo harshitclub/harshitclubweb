@@ -16,9 +16,9 @@ export default function Home() {
       <Skills />
       <About />
       <Projects />
-      <Experience />
-      <Github />
+      {/* <Experience /> */}
       <Social />
+      <Github />
       <Contact />
     </main>
   );

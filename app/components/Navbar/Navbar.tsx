@@ -48,14 +48,6 @@ const Navbar = () => {
           </div>
           <div className={`menu ${showMenu ? "showNav" : ""}`}>
             <ul className="flex">
-              {/* <li>
-                <a href="/">Home</a>
-              </li> */}
-              <li>
-                <a href="/skills">
-                  <DiCodeBadge className="navIcons" /> Skills
-                </a>
-              </li>
               <li>
                 <a href="/projects">
                   <BiFolder className="navIcons" /> Projects

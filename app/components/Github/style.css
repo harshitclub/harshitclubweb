@@ -1,30 +1,11 @@
 .githubSection {
-  margin: 0 0 2rem 0;
+  margin: 0 0 1px 0;
 }
 
 .githubSection .githubSContainer .githubSContent {
-  /* background: rgb(255, 255, 255);
-  background: linear-gradient(
-    80deg,
-    rgba(255, 255, 255, 1) 14%,
-    rgba(203, 206, 208, 1) 100%,
-    rgba(147, 152, 157, 0.9136904761904762) 100%,
-    rgba(92, 99, 107, 1) 100%,
-    rgba(21, 32, 43, 0.7120098039215687) 100%
-  ); */
-  background-image: url(../../../public/githubback.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-  border: 1px solid var(--borderColor);
+  background-color: var(--black);
   border-radius: 0.2rem;
   padding: 2rem 0;
-}
-
-.githubSection .githubSContainer .githubSContent:hover {
-  border: 1px solid var(--headingColor);
-  transition: 0.3s;
 }
 
 .githubSection .githubSContainer .githubSContent .githubSIcon {

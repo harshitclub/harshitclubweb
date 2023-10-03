@@ -222,7 +222,7 @@ select {
 /* 404 page not found styling */
 
 .errorPage {
-  height: 80vh;
+  height: 100vh;
 }
 
 .errorPage .errorPageContainer h1 {
@@ -242,6 +242,7 @@ select {
   background-color: var(--black);
   cursor: pointer;
   margin: 1rem;
+  border-radius: 0.2rem;
 }
 
 .errorPage .errorPageContainer .errorBtns .errorBtn:hover {

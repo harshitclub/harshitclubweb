@@ -1,30 +1,36 @@
-.projectSection {
-  margin: 0 0 2rem 0;
-}
-
 .projectSection .projectSContainer h2 {
   color: var(--headingColor);
   font-size: 1.4rem;
 }
 
+.projectSParent {
+  gap: 1px;
+}
+
 .projectSParent .projectSChild {
-  width: 32.5%;
-  color: var(--textColor);
-  padding: 0.5rem;
+  width: 33.3%;
+  margin: 0 0 1px 0;
+  color: var(--textWhite);
+  padding: 1rem;
   cursor: pointer;
-  border: 1px solid var(--borderColor);
+  /* border: 1px solid var(--borderColor); */
   border-radius: 0.2rem;
+  background-color: var(--black);
+}
+
+.projectSParent .projectSChild .projectSBtns .projectSIcons {
+  color: var(--textWhite);
 }
 
 .projectSParent .projectSChild h3 {
   margin: 0 0 0.5rem 0;
-  color: var(--headingColor);
+  color: var(--textWhite);
 }
 
 .projectSParent .projectSChild p {
   text-align: justify;
   font-size: 0.9rem;
-  color: var(--textColor);
+  color: var(--textWhite);
 }
 
 .projectSParent .projectSChild .projectSBtns .projectSBtn {
@@ -56,28 +62,23 @@
   font-size: 0.8rem;
 }
 
-.projectSParent .projectSChild:hover {
-  transition: 0.3s;
-  border: 1px solid var(--headingColor);
-}
-
-.projectSection .projectShowMore a button {
+.projectSHeader a button {
   padding: 0.5rem;
-  background-color: var(--headingColor);
+  background-color: var(--black);
   color: var(--white);
   transition: 0.3s;
-  border: 1px solid var(--headingColor);
+  border: 1px solid var(--black);
   cursor: pointer;
   border-radius: 0.2rem;
 }
 
-.projectSection .projectShowMore a button .showMoreIcon {
+.projectSHeader a button .showMoreIcon {
   margin: 0 0 -0.1rem 0;
 }
 
-.projectSection .projectShowMore a button:hover {
+.projectSHeader a button:hover {
   background-color: var(--white);
-  color: var(--headingColor);
+  color: var(--black);
 }
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
@@ -88,7 +89,7 @@
 
   .projectSParent .projectSChild {
     width: 100%;
-    margin: 0 0 1rem 0;
+    margin: 0 0 1px 0;
   }
 }
 

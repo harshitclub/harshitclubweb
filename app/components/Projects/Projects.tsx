@@ -11,8 +11,16 @@ export default function Projects() {
   return (
     <section className="projectSection flex flexColumn width100">
       <div className="projectSContainer flex flexColumn alignStart maxWidth width90">
-        <h2 className="margin1 font600">My Projects</h2>
-        <div className="projectSParent width100 flex spaceBtw margin1">
+        <div className="projectSHeader flex spaceBtw width100 alignCenter justifyCenter margin1 maxWidth">
+          <h2 className="font600">My Projects</h2>
+
+          <Link href="/projects">
+            <button>
+              Show All <RiExternalLinkLine className="showMoreIcon" />
+            </button>
+          </Link>
+        </div>
+        <div className="projectSParent width100 flex spaceBtw">
           {myProjects.map((project) => {
             return (
               <>
@@ -41,14 +49,13 @@ export default function Projects() {
             );
           })}
         </div>
-        <div className="projectSParent width100 flex spaceBtw margin1">
+        <div className="projectSParent width100 flex spaceBtw ">
           {myProjects2.map((project) => {
             return (
               <>
                 <div className="projectSChild" key={project.id}>
                   <div className="projectSBtns flex width100 spaceBtw">
                     <div className="projectSBtn">
-                      <span className="spanHidden">Github</span>
                       <a href={project.codeLink} target="_blank">
                         <RiGithubFill className="projectSIcons" />
                       </a>
@@ -70,13 +77,6 @@ export default function Projects() {
             );
           })}
         </div>
-      </div>
-      <div className="projectShowMore width90 maxWidth">
-        <Link href="/projects">
-          <button>
-            Show All <RiExternalLinkLine className="showMoreIcon" />
-          </button>
-        </Link>
       </div>
     </section>
   );

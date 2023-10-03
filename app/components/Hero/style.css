@@ -1,11 +1,11 @@
 .hero {
-  margin: 5rem 0 0 0;
+  margin: 4rem 0 0 0;
 }
 
 .hero .heroContainer {
   padding: 1rem;
   background-color: #111111;
-  height: 85vh;
+  height: 90vh;
   border-radius: 0.2rem;
   background-color: var(--black);
 }

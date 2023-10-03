@@ -9,7 +9,7 @@ nav {
   flex-direction: column;
   width: 100%;
   position: fixed;
-  height: 4.5rem;
+  height: 4rem;
   z-index: 999;
   top: 0;
   background-color: rgba(
@@ -31,12 +31,11 @@ nav .navLogo img {
 }
 
 nav .navContainer .menu ul {
-  gap: 0.5rem;
+  gap: 0.3rem;
 }
 
 nav .navContainer .menu ul li a {
   color: var(--white);
-  /* margin: 0 1.5rem 0 0; */
   font-size: var(--p);
   font-weight: 400;
   background-color: var(--black);
