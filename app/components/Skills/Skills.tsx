@@ -62,7 +62,7 @@ export default function Skills() {
             <h3>WordPress</h3>
           </div>
         </div>
-        {/* mobile skill box */}
+
         <div className="mobileSkillBoxes flex ">
           <div className="mSkillBox">
             <h3>JavaScript</h3>

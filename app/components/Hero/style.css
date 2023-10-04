@@ -3,8 +3,8 @@
 }
 
 .hero .heroContainer {
-  padding: 1rem;
-  background-color: #111111;
+  padding: 1rem 1rem 1rem 2rem;
+  /* background-color: #111111; */
   height: 90vh;
   border-radius: 0.2rem;
   background-color: var(--black);

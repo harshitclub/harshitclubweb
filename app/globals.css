@@ -9,16 +9,12 @@ html {
 }
 
 body::-webkit-scrollbar {
-  display: none;
+  width: 0.3rem;
 }
 
-/* body {
-  font-family: "IBM Plex Mono", monospace;
-} */
-
-/* p {
-  line-height: 1.5rem;
-} */
+body::-webkit-scrollbar-thumb {
+  background-color: var(--black);
+}
 
 button {
   font-family: "Poppins", sans-serif;
