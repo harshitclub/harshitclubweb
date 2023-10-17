@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function Privacy() {
   return (
-    <section className="pPolicyContainer maxWidth flex flexColumn alignStart">
+    <section className="pPolicyContainer maxWidth flex flexColumn alignStart width90">
       <p>
         At harshitclub, accessible from <a href="/">https://harshitclub.com</a>,
         one of our main priorities is the privacy of our visitors. This Privacy

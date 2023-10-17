@@ -3,7 +3,7 @@ import "./style.css";
 
 function MyStory() {
   return (
-    <section className="myStoryContainer flex flexColumn maxWidth alignStart width60">
+    <section className="myStoryContainer flex flexColumn maxWidth alignStart width90">
       <h2>Introduction</h2>
       <p>
         Hi, My Name is Harshit Kumar, I am currently a Full Stack Web Developer

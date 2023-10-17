@@ -1,5 +1,4 @@
 .terms .termsContainer {
-  width: 60%;
   margin: 1rem 0 2rem 0;
 }
 
@@ -18,6 +17,7 @@
 
 .terms .termsContainer ul {
   list-style: disc;
+  list-style-position: inside;
   margin: 0 0 1rem 0;
 }
 

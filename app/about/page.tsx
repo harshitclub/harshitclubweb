@@ -12,7 +12,7 @@ import { BsDownload } from "react-icons/bs";
 
 export default function About() {
   return (
-    <section className="aboutContainer flex flexColumn maxWidth alignStart width60">
+    <section className="aboutContainer flex flexColumn maxWidth alignStart width90">
       <p>
         Hi, I am Harshit Kumar, born and raised in the vibrant city of Meerut,
         Uttar Pradesh, India in 2001, I am a full stack web developer with a

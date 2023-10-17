@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Terms() {
   return (
-    <section className="termsContainer maxWidth flex flexColumn alignStart">
+    <section className="termsContainer maxWidth flex flexColumn alignStart width90">
       <h2>Introduction</h2>
       <p>
         These Website Standard Terms and Conditions written on this webpage
