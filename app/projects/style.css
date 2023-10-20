@@ -1,23 +1,34 @@
 .projects .projectsContainer {
-  margin: 1rem 0 2rem 0;
+  margin: 0.2rem 0;
 }
 
 .allProjectsTab .allProjectBox {
-  width: 32%;
-  color: var(--headingColor);
+  width: calc(33.33% - 1.3px);
+  color: var(--textWhite);
+  border: 1px solid var(--black);
+  background-color: var(--black);
   padding: 0.5rem 1rem;
-  border: 1px solid var(--borderColor);
   border-radius: 0.2rem;
 }
 
 .allProjectsTab .allProjectBox:hover {
-  border: 1px solid var(--headingColor);
-  transition: 0.3s;
+  background-color: var(--white);
+  color: var(--textColor);
+}
+
+.allProjectsTab .allProjectBox:hover .allProjectBtns .allProjectBtn a {
+  color: var(--textColor);
+}
+
+.allProjectsTab .allProjectBox:hover p {
+  color: var(--textColor);
 }
 
 .allProjectsTab {
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2px;
 }
 
 .allProjectsTab .allProjectBox .allProjectBtns .allProjectBtn {
@@ -25,7 +36,7 @@
 }
 
 .allProjectsTab .allProjectBox .allProjectBtns .allProjectBtn a {
-  color: var(--textColor);
+  color: var(--textWhite);
   font-size: 1.4rem;
 }
 
@@ -41,7 +52,7 @@
 .allProjectsTab .allProjectBox p {
   text-align: justify;
   font-size: 0.9rem;
-  color: var(--textColor);
+  color: var(--textWhite);
 }
 
 .allProjectsTab .allProjectBox .allProjectTech {
