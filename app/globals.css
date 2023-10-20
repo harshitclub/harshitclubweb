@@ -163,7 +163,7 @@ select {
 .borderBottom3 {
   border-bottom: 1px solid #c5c5c5;
   width: 100%;
-  max-width: 1200px;
+  max-width: var(--max-width);
   margin: 1rem 0;
 }
 
