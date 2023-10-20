@@ -4,7 +4,7 @@
 }
 
 .projectSParent {
-  gap: 1px;
+  gap: 2px;
 }
 
 .projectSParent .projectSChild {
@@ -13,13 +13,23 @@
   color: var(--textWhite);
   padding: 1rem;
   cursor: pointer;
-  /* border: 1px solid var(--borderColor); */
+  border: 1px solid var(--textColor);
   border-radius: 0.2rem;
   background-color: var(--black);
 }
 
+.projectSParent .projectSChild:hover {
+  background-color: var(--bgWhite);
+  transition: 0.3s ease-in-out;
+}
+
 .projectSParent .projectSChild .projectSBtns .projectSIcons {
   color: var(--textWhite);
+}
+
+.projectSParent .projectSChild:hover .projectSBtns .projectSIcons {
+  color: var(--textColor);
+  transition: 0.3s ease-in-out;
 }
 
 .projectSParent .projectSChild h3 {
@@ -27,10 +37,20 @@
   color: var(--textWhite);
 }
 
+.projectSParent .projectSChild:hover h3 {
+  color: var(--textColor);
+  transition: 0.3s ease-in-out;
+}
+
 .projectSParent .projectSChild p {
   text-align: justify;
   font-size: 0.9rem;
   color: var(--textWhite);
+}
+
+.projectSParent .projectSChild:hover p {
+  color: var(--textColor);
+  transition: 0.3s ease-in-out;
 }
 
 .projectSParent .projectSChild .projectSBtns .projectSBtn {

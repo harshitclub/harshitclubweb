@@ -18,7 +18,7 @@
   overflow: hidden;
   color: var(--headingColor);
   cursor: pointer;
-  background-color: var(--white);
+  background-color: var(--bgWhite);
   border-radius: 0.2rem;
 }
 

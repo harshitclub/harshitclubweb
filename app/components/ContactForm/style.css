@@ -8,6 +8,7 @@ form input {
   outline: none;
   border: 1px solid var(--borderColor);
   border-radius: 0.2rem;
+  background: transparent;
 }
 
 form select {
@@ -16,7 +17,7 @@ form select {
   font-size: 1rem;
   outline: none;
   border: 1px solid var(--borderColor);
-  background-color: var(--white);
+  background: transparent;
 }
 
 form textarea {
@@ -25,6 +26,7 @@ form textarea {
   font-size: 1rem;
   outline: none;
   border: 1px solid var(--borderColor);
+  background: transparent;
 }
 
 form button {

@@ -8,6 +8,10 @@ html {
   scrollbar-width: none;
 }
 
+body {
+  background-color: var(--bgWhite);
+}
+
 body::-webkit-scrollbar {
   width: 0.3rem;
 }
@@ -55,6 +59,7 @@ select {
 
 /* variables */
 :root {
+  --bgWhite: #fffdfa;
   --black: #111111;
   --black2: #212121;
   --white: #ffffff;

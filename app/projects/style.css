@@ -12,15 +12,18 @@
 }
 
 .allProjectsTab .allProjectBox:hover {
-  background-color: var(--white);
+  background-color: var(--bgWhite);
   color: var(--textColor);
+  transition: 0.3s ease-in-out;
 }
 
 .allProjectsTab .allProjectBox:hover .allProjectBtns .allProjectBtn a {
+  transition: 0.3s ease-in-out;
   color: var(--textColor);
 }
 
 .allProjectsTab .allProjectBox:hover p {
+  transition: 0.3s ease-in-out;
   color: var(--textColor);
 }
 
