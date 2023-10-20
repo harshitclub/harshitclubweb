@@ -14,8 +14,8 @@ nav {
   top: 0;
   background-color: rgba(
     255,
-    255,
-    255,
+    253,
+    250,
     0.8
   ); /* Semi-transparent blue background */
   backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
@@ -50,8 +50,8 @@ nav .navContainer .menu ul .navMail {
 
 nav .navContainer .menu ul li a:hover {
   color: var(--black);
-  background-color: var(--white);
-  transition: 0.3s;
+  background-color: var(--bgWhite);
+  transition: 0.3s ease-in-out;
 }
 
 nav .navContainer .rMenuBtn {
