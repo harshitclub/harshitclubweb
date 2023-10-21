@@ -22,6 +22,7 @@ nav {
   -webkit-backdrop-filter: blur(
     10px
   ); /* For compatibility with some browsers */
+  margin: 0 0 10rem 0;
 }
 
 nav .navLogo img {

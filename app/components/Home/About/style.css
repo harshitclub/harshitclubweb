@@ -3,7 +3,7 @@
 }
 
 .aboutSection .aboutSContainer {
-  background: url(../../../public/aboutbg.svg);
+  background: url(../../../../public/aboutbg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0 1rem 0 0;
