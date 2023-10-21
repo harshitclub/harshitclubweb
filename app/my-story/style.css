@@ -1,33 +1,38 @@
-.myStory .myStoryContainer {
-  margin: 1rem 0 2rem 0;
+.myStoryContainer {
+  margin: 1rem 0;
+  gap: 2rem;
 }
 
-.myStory .myStoryContainer h2 {
+.myStory .myStoryArticle {
+  width: 75%;
+}
+
+.myStory .myStoryArticle h2 {
   font-weight: 600;
   color: var(--headingColor);
   margin: 0 0 0.2rem 0;
 }
 
-.myStory .myStoryContainer h3 {
+.myStory .myStoryArticle h3 {
   font-weight: 600;
   color: var(--headingColor);
   margin: 0 0 0.2rem 0;
 }
 
-.myStory .myStoryContainer p {
+.myStory .myStoryArticle p {
   color: var(--textColor);
   margin: 0 0 1rem 0;
   text-align: justify;
 }
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
-  .myStory .myStoryContainer {
-    width: 90%;
+  .myStory .myStoryArticle {
+    width: var(--width90);
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .myStory .myStoryContainer {
-    width: 90%;
+  .myStory .myStoryArticle {
+    width: var(--width90);
   }
 }

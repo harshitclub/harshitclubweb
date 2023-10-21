@@ -1,0 +1,54 @@
+.asideSection {
+  width: 25%;
+  border: 1px solid var(--black);
+  position: sticky;
+  top: 4rem;
+  border-radius: 0.2rem;
+  background-color: var(--black);
+  padding: 1rem;
+}
+
+.asideSection h2 {
+  font-weight: 400;
+  margin: 0 0 0.1rem 0;
+  color: var(--textWhite);
+  font-size: 1.4rem;
+}
+
+.asideSection ul {
+  margin: 0 0 2rem 0;
+  color: var(--textWhite);
+  list-style-position: inside;
+  list-style: disc;
+}
+
+.asideSection ul li {
+  margin: 0 0 0.3rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+.asideSection .aboutAsideSocial a {
+  color: var(--textWhite);
+  font-size: 1.6rem;
+  margin: 0 0.5rem 0 0;
+}
+
+.asideSection .asideMail p {
+  color: var(--textWhite);
+  margin: 0 0 0.5rem 0;
+}
+.asideSection .asideMail a {
+  color: var(--textWhite);
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .asideSection {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .asideSection {
+    display: none;
+  }
+}
