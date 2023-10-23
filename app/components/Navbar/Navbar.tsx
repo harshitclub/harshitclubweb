@@ -49,22 +49,13 @@ const Navbar = () => {
           <div className={`menu ${showMenu ? "showNav" : ""}`}>
             <ul className="flex">
               <li>
-                <a href="/projects">
-                  <BiFolder className="navIcons" /> Projects
-                </a>
+                <a href="/projects">Projects</a>
               </li>
               <li>
-                <a href="/about">
-                  <BiInfoCircle className="navIcons" /> About
-                </a>
+                <a href="/about">About</a>
               </li>
-              {/* <li>
-                <a href="/my-story">My Story</a>
-              </li> */}
               <li>
-                <a href="/contact">
-                  <BiPhone className="navIcons" /> Contact
-                </a>
+                <a href="/contact">Contact</a>
               </li>
               <li className="navMail">
                 <a href="mailto:harshitclub@gmail.com">
