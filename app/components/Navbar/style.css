@@ -9,9 +9,9 @@ nav {
   z-index: 999;
   top: 0;
   background-color: rgba(
-    255,
-    253,
-    250,
+    232,
+    232,
+    232,
     0.8
   ); /* Semi-transparent blue background */
   backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
@@ -33,13 +33,14 @@ nav .navContainer .menu ul {
 
 nav .navContainer .menu ul li a {
   color: var(--white);
-  font-size: var(--p);
+  /* font-size: var(--p); */
+  font-size: 0.9rem;
   font-weight: 400;
   background-color: var(--black);
-  padding: 0.5rem;
+  padding: 0.5rem 0;
   border-radius: 0.2rem;
   border: 1px solid var(--black);
-  width: 6.81rem;
+  width: 6rem;
   display: block;
   text-align: center;
 }
@@ -64,7 +65,7 @@ nav .navContainer .rMenuBtn {
     background-color: transparent;
     border: none;
     color: var(--black);
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
   nav .navContainer .menu {
     left: -100%;
@@ -72,19 +73,23 @@ nav .navContainer .rMenuBtn {
     top: 0;
     background-color: var(--black);
     height: 100vh;
-    width: 80vw;
+    width: 60vw;
     right: 0;
     transition: 0.5s;
     z-index: 999;
   }
 
   nav .navContainer .menu ul {
-    margin: 2rem 0 0 2rem;
+    margin: 1rem 0 0 1rem;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 0;
-    width: 50%;
+  }
+
+  nav .navContainer .menu ul li a:hover {
+    background-color: transparent;
+    color: var(--textWhite);
   }
   nav .navContainer .menu ul .navMail {
     display: block;
@@ -113,13 +118,16 @@ nav .navContainer .rMenuBtn {
   }
 
   nav .navContainer .menu ul li {
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
+    border-bottom: 1px dotted var(--textWhite);
   }
 
   nav .navContainer .menu ul li a {
     color: var(--white);
     font-size: 1.1rem;
     text-align: left;
+    border: none;
+    background-color: transparent;
   }
 
   nav .navContainer .showNav {
@@ -134,7 +142,7 @@ nav .navContainer .rMenuBtn {
     background-color: transparent;
     border: none;
     color: var(--black);
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
   nav .navContainer .menu {
     left: -100%;
@@ -142,32 +150,61 @@ nav .navContainer .rMenuBtn {
     top: 0;
     background-color: var(--black);
     height: 100vh;
-    width: 70vw;
+    width: 60vw;
     right: 0;
     transition: 0.5s;
     z-index: 999;
   }
 
   nav .navContainer .menu ul {
-    margin: 2rem 0 0 2rem;
+    margin: 1rem 0 0 1rem;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 50%;
     gap: 0;
+  }
+
+  nav .navContainer .menu ul li a:hover {
+    background-color: transparent;
+    color: var(--textWhite);
   }
   nav .navContainer .menu ul .navMail {
     display: block;
   }
 
+  .navMailIcon {
+    margin: 0 0 -0.1rem 0;
+  }
+
+  nav .navContainer .menu ul .mNavResume a {
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    color: var(--headingColor);
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+  }
+
+  nav .navContainer .menu ul .mNavResume a:hover {
+    background-color: var(--black);
+    transition: 0.3s;
+    color: var(--white);
+  }
+
+  nav .navContainer .menu ul .mNavResume a .navResumeIcon {
+    margin: 0 0 -0.08rem 0;
+  }
+
   nav .navContainer .menu ul li {
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
+    border-bottom: 1px dotted var(--textWhite);
   }
 
   nav .navContainer .menu ul li a {
     color: var(--white);
     font-size: 1.1rem;
     text-align: left;
+    border: none;
+    background-color: transparent;
   }
 
   nav .navContainer .showNav {

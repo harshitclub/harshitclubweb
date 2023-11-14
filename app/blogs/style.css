@@ -1,0 +1,115 @@
+.allBlogsContainer {
+  margin: 1rem 0;
+}
+
+.allBlogsContainer aside {
+  width: 28.7%;
+  background-color: var(--black);
+  /* height: 50vh; */
+  border-radius: 0.2rem;
+  top: 4rem;
+  position: sticky;
+}
+
+.allBlogsContainer .allBlogsTab {
+  width: 68%;
+}
+
+.allBlogsContainer .allBlogsTab .blogsHeader h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+.allBlogsContainer .blogsBox {
+  width: 100%;
+  border-left: 1px solid var(--borderColor);
+  padding: 0 0 0 1rem;
+  margin: 1rem 0;
+}
+
+.allBlogsContainer .blogsBox h4 {
+  font-weight: 400;
+  font: 0.8rem;
+  margin: 0 0 0.5rem 0;
+  color: #808080;
+}
+
+.allBlogsContainer .blogsBox h3 {
+  margin: 0 0 0.4rem 0;
+}
+
+.allBlogsContainer .blogsBox h3 a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--textColor);
+}
+
+.blogsTitleIcon {
+  font-size: 0.9rem;
+  margin: 0 0 -0.1rem 0;
+}
+
+.allBlogsContainer .blogsBox .blogsDesc {
+  font-weight: 400;
+  margin: 0 0 0.3rem 0;
+  text-align: justify;
+  color: #565656;
+}
+
+.allBlogsContainer .blogsBox .blogsDate {
+  color: #565656;
+  margin: 0 0 0.4rem 0;
+  font-size: 0.8rem;
+}
+
+.allBlogsContainer .blogsBox .blogsDate span {
+  color: #565656;
+  text-decoration: underline;
+}
+
+.allBlogsContainer .blogsBox .blogsDate .blogsCategory {
+  /* font-weight: 500; */
+  text-decoration: none;
+  background-color: #d3d3d3;
+  border-radius: 0.2rem;
+  padding: 0 0.2rem;
+}
+
+.allBlogsContainer .blogsBox .blogsDate .blogsReadTime {
+  text-decoration: none;
+}
+
+.allBlogsContainer .blogsBox .blogsReadMore a {
+  display: block;
+}
+
+.allBlogsContainer .blogsBox .blogsReadMore a span {
+  border: 1px solid var(--textColor);
+  border-radius: 0.2rem;
+  color: var(--white);
+  background-color: var(--black);
+  padding: 0 0.5rem;
+}
+
+.allBlogsContainer .blogsReadMoreIcon {
+  margin: 0 0 -0.2rem 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .allBlogsContainer aside {
+    display: none;
+  }
+  .allBlogsContainer .allBlogsTab {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .allBlogsContainer aside {
+    display: none;
+  }
+  .allBlogsContainer .allBlogsTab {
+    width: 95%;
+  }
+}

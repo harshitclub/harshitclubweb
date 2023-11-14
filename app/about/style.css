@@ -20,6 +20,16 @@
   color: var(--textColor);
 }
 
+.aboutPWidthExtra {
+  width: 6rem;
+  border-right: 1px solid var(--textColor);
+  margin: 0 1rem 0.5rem 0 !important;
+}
+
+.about .aboutContent .aboutExperience {
+  padding: 0 0 1rem 0;
+}
+
 .about .aboutContent .aboutExperience h3 {
   font-size: var(--h4);
   font-weight: 600;
@@ -28,17 +38,16 @@
 }
 
 .about .aboutContent .aboutExperience p {
-  margin: 0 0 0.2rem 0;
   font-weight: 600;
   color: var(--headingColor);
 }
 
-.about .aboutContent .aboutExperience p span {
+.about .aboutContent .aboutExperience span {
   font-weight: 400;
   color: var(--textColor);
 }
 
-.about .aboutContent .aboutExperience p span a {
+.about .aboutContent .aboutExperience span a {
   color: var(--textColor);
 }
 
@@ -46,9 +55,9 @@
   margin: 0 0 -0.15rem 0;
 }
 
-.about .aboutContent .aboutExperience p span a:hover {
-  color: var(--offWhite);
-  transition: 0.3s;
+.ae1,
+.ae2 {
+  margin: 0 0 1rem 0;
 }
 
 .about .aboutContent .aboutEducation h3 {
@@ -64,14 +73,14 @@
   color: var(--textColor);
 }
 
-.about .aboutContent .aboutEducation p span {
+.about .aboutContent .aboutEducation span {
   font-weight: 400;
 }
 
-.about .aboutContent .aboutEducation p span a {
+.about .aboutContent span a {
   color: var(--textColor);
 }
-.about .aboutContent .aboutEducation p span a:hover {
+.about .aboutContent span a:hover {
   color: var(--offWhite);
   transition: 0.3s;
 }
@@ -82,7 +91,7 @@
   color: var(--textColor);
 }
 
-.about .aboutContent .aboutSkills p span {
+.about .aboutContent .aboutSkills span {
   font-weight: 400;
   color: var(--textColor);
 }
@@ -91,34 +100,6 @@
   font-size: var(--h1);
   color: var(--textColor);
   margin: 0 1rem 0 0;
-}
-
-.about .aboutContent .aboutResume button {
-  padding: 0.5rem;
-  background-color: var(--headingColor);
-  color: var(--white);
-  border: 1px solid var(--headingColor);
-  border-radius: 0.2rem;
-}
-
-.about .aboutContent .aboutResume button a {
-  color: var(--white);
-}
-
-.aboutDResumeBtn {
-  margin: 0 0 -0.1rem 0;
-}
-
-.about .aboutContent .aboutResume button:hover {
-  background-color: var(--white);
-  color: var(--headingColor);
-  transition: 0.3;
-  cursor: pointer;
-}
-
-.about .aboutContent .aboutResume button:hover a {
-  color: var(--headingColor);
-  transition: 0.3s;
 }
 
 .about .aboutContent .aboutEmail p {

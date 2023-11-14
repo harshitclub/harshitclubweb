@@ -4,9 +4,15 @@ export const metadata: Metadata = {
   title: "Contact",
   description:
     "Get in touch with Harshit Kumar, a full-stack web developer. Contact me for any queries or project collaborations.",
+  alternates: {
+    canonical: "https://www.harshitclub.com/contact",
+  },
   openGraph: {
     type: "website",
-    title: "Contact",
+    title: "Contact - Harshit Kumar",
+    description:
+      "Get in touch with Harshit Kumar, a full-stack web developer. Contact me for any queries or project collaborations.",
+    url: "https://www.harshitclub.com/contact",
     siteName: "harshitclub",
   },
 };

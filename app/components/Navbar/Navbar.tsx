@@ -3,71 +3,73 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
 import { HarshitLogo } from "../HarshitLogo/Logo";
-import { BiFolder, BiInfoCircle, BiMenu, BiPhone } from "react-icons/bi";
-import { BsDownload } from "react-icons/bs";
+import { BiMenu } from "react-icons/bi";
+// import { BsDownload } from "react-icons/bs";
 import { RiExternalLinkLine } from "react-icons/ri";
-import { DiCodeBadge } from "react-icons/di";
+import Link from "next/link";
+import { BsX } from "react-icons/bs";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
-  const [color, setColor] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
+  const pathname = usePathname();
 
   const toggleMenu = () => {
+    navigator.vibrate(100);
     if (showMenu === false) {
       setShowMenu(true);
-      document.body.style.overflow = "hidden";
+      // document.body.style.overflow = "hidden";
     } else {
       setShowMenu(false);
-      document.body.style.overflow = "auto";
-    }
-  };
-
-  const changeColor = () => {
-    if (window.scrollY >= 20) {
-      setColor(true);
-    } else {
-      setColor(false);
+      // document.body.style.overflow = "auto";
     }
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", changeColor);
-  }, []);
+    setShowMenu(false);
+  }, [pathname]);
 
   return (
     <header>
       <nav>
         <div className="navContainer flex spaceBtw width90 maxWidth">
           <div className="navLogo flex ali">
-            <a href="/">
+            <Link href="/">
               <HarshitLogo />
-            </a>
+            </Link>
           </div>
           <div className="rMenuBtn">
-            <BiMenu onClick={toggleMenu} />
+            {!showMenu ? (
+              <BiMenu onClick={toggleMenu} />
+            ) : (
+              <BsX onClick={toggleMenu} />
+            )}
           </div>
           <div className={`menu ${showMenu ? "showNav" : ""}`}>
             <ul className="flex">
               <li>
-                <a href="/projects">Projects</a>
+                <Link href="/projects">Projects</Link>
               </li>
               <li>
-                <a href="/about">About</a>
+                <Link href="/blogs">Blogs</Link>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <Link href="/about">About</Link>
+              </li>
+              <li>
+                <Link href="/contact">Contact</Link>
               </li>
               <li className="navMail">
-                <a href="mailto:harshitclub@gmail.com">
+                <Link href="mailto:harshitclub@gmail.com">
                   Mail <RiExternalLinkLine className="navMailIcon" />
-                </a>
+                </Link>
               </li>
-              <li className="navMail mNavResume">
-                <a href="/">
+              {/* <li className="navMail mNavResume">
+                <Link href="/">
                   Resume &nbsp;
                   <BsDownload className="navResumeIcon" />
-                </a>
-              </li>
+                </Link>
+              </li> */}
             </ul>
           </div>
         </div>

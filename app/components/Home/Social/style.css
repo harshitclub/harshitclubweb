@@ -3,41 +3,32 @@
 }
 
 .socialSection .socialSContainer {
-  padding: 1rem;
   border-radius: 0.2rem;
-  background-color: var(--black);
+}
+.socialSection .socialSContainer .socialSProfiles {
+  gap: 2px;
 }
 
 .socialSection .socialSContainer .socialSProfiles .socialSProfile {
-  width: 24%;
-  height: 4rem;
+  background-color: var(--black);
+  width: 33.3%;
   transition: 0.3s;
   border-radius: 0.2rem;
 }
 
-.socialSection .socialSContainer .socialSProfiles .socialSProfile h3 a {
+.socialSection .socialSContainer .socialSProfiles .socialSProfile a {
   color: var(--textWhite);
 }
 
-.socialSection .socialSContainer .socialSProfiles .socialSProfile:hover h3 a {
-  color: var(--textWhite);
-  transition: 0.3s;
-}
-
-.socialSection .socialSContainer .socialSProfiles .socialSProfile h3 a {
+.socialSection .socialSContainer .socialSProfiles .socialSProfile a h3 {
   font-weight: 500;
   font-size: var(--a);
   color: var(--textWhite);
-  padding: 0.5rem 3rem;
+  padding: 3rem 8rem;
 }
 
 .socialSIcons {
   margin: 0 0 -0.15rem 0;
-}
-
-.socialSection .socialSContainer .socialSProfiles .socialSProfile:hover {
-  border: 1px dotted var(--textWhite);
-  transition: 0.3s;
 }
 
 @media screen and (min-width: 200px) and (max-width: 480px) {
@@ -47,7 +38,7 @@
 
   .socialSection .socialSContainer .socialSProfiles .socialSProfile {
     width: 100%;
-    margin: 0 0 1rem 0;
+    margin: 0 0 1px 0;
   }
 }
 
@@ -58,6 +49,6 @@
 
   .socialSection .socialSContainer .socialSProfiles .socialSProfile {
     width: 100%;
-    margin: 0 0 1rem 0;
+    margin: 0 0 1px 0;
   }
 }

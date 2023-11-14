@@ -20,7 +20,6 @@
 .hero .heroContainer h1 span {
   /* font-size: 2.5rem; */
   font-weight: 400;
-  font-family: var(--font-caveat);
 }
 
 .hero .heroContainer h2 {
@@ -53,6 +52,10 @@
 @media screen and (min-width: 200px) and (max-width: 480px) {
   .hero {
     height: 50vh;
+  }
+
+  .hero .heroContainer {
+    padding: 1rem;
   }
   .hero .heroContainer h1 {
     font-size: 2rem;

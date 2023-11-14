@@ -4,9 +4,15 @@ export const metadata: Metadata = {
   title: "Projects",
   description:
     "Explore my latest web development projects showcasing my skills in HTML, CSS, JavaScript, React.js, Node.js, and more. View my portfolio and contact me for collaborations.",
+  alternates: {
+    canonical: "https://www.harshitclub.com/projects",
+  },
   openGraph: {
     type: "website",
-    title: "Projects",
+    title: "Projects - Harshit Kumar",
+    description:
+      "Explore my latest web development projects showcasing my skills in HTML, CSS, JavaScript, React.js, Node.js, and more. View my portfolio and contact me for collaborations.",
+    url: "https://www.harshitclub.com/projects",
     siteName: "harshitclub",
   },
 };

@@ -71,64 +71,73 @@ export default function About() {
         <div className="borderBottom3"></div>
         <div className="aboutExperience noMargin">
           <h2>Work Experience</h2>
-          <p>
-            Position: <span>Web Developer</span>
-          </p>
-          <p>
-            Company:{" "}
+          <div className="flex justifyStart alignCenter">
+            <p className="aboutPWidthExtra">Position</p>
+            <span>Web Developer</span>
+          </div>
+          <div className="flex justifyStart alignCenter">
+            <p className="aboutPWidthExtra">Company</p>
             <span id="aboutS5">
               <Link href="https://3alearningsolutions.com" target="_blank">
                 3a Learning Solutions Pvt. Ltd
                 <RiExternalLinkLine className="aboutExperienceIcon" />
               </Link>
             </span>
-          </p>
-          <p>
-            Duration: <span>[May 2022 - Current]</span>
-          </p>
+          </div>
+          <div className="flex justifyStart alignCenter">
+            <p className="aboutPWidthExtra">Duration</p>
+            <span>May 2022 - Current</span>
+          </div>
         </div>
         <div className="borderBottom3"></div>
         <div className="aboutEducation width100 noMargin">
           <h2>My Education</h2>
           <h3>Bachelor of Technology In Information Technology</h3>
-          <p>
-            Duration: <span>[2021 - 2024]</span>
-          </p>
-          <p className="marginBottom1">
-            University:{" "}
+          <div className=" flex justifyStart alignCenter">
+            <p className="aboutPWidthExtra">Duration</p>
+            <span>2021 - 2024</span>
+          </div>
+          <div className="ae1 flex justifyStart alignCenter">
+            <p className="aboutPWidthExtra">University</p>
             <span>
               <Link href="https://aktu.ac.in/" target="_blank">
                 Dr. A.P.J. Abdul Kalam Technical University
                 <RiExternalLinkLine className="aboutExperienceIcon" />
               </Link>
             </span>
-          </p>
+          </div>
+
           <h3>Polytechnic Diploma In Computer Science</h3>
-          <p>
-            Duration: <span>[2018 - 2021]</span>
-          </p>
-          <p className="marginBottom1">
-            University:{" "}
+          <div className="flex justifyStart alignCenter">
+            <p className="aboutPWidthExtra">Duration</p>
+            <span>2018 - 2021</span>
+          </div>
+          <div className="ae2 flex justifyStart alignCenter">
+            <p className="aboutPWidthExtra">University</p>
             <span>
               <Link href="https://bteup.ac.in/" target="_blank">
                 Board of Technical Education UP
                 <RiExternalLinkLine className="aboutExperienceIcon" />
               </Link>
             </span>
-          </p>
+          </div>
+
           <h3>10th Standard</h3>
-          <p id="aboutS6">
-            Duration: <span>[2017 - 2018]</span>
-          </p>
-          <p>
-            Board:{" "}
+          <div className="flex justifyStart alignCenter">
+            <p id="aboutS6" className="aboutPWidthExtra">
+              Duration
+            </p>
+            <span>2017 - 2018</span>
+          </div>
+          <div className="flex justifyStart alignCenter">
+            <p className="aboutPWidthExtra">Board</p>
             <span>
               <Link href="https://www.cbse.gov.in/" target="_blank">
                 Central Board of Secondary Eduction
                 <RiExternalLinkLine className="aboutExperienceIcon" />
               </Link>
             </span>
-          </p>
+          </div>
         </div>
         <div className="borderBottom3"></div>
         <div className="aboutSkills noMargin">
@@ -155,15 +164,6 @@ export default function About() {
           <p>
             Testing: <span>Postman | Insomnia</span>
           </p>
-        </div>
-        <div className="borderBottom3"></div>
-        <div className="aboutResume noMargin">
-          <h2 id="aboutS7">Download My Resume</h2>
-          <button>
-            <Link href="/">
-              Download Resume <BsDownload className="aboutDResumeBtn" />
-            </Link>
-          </button>
         </div>
       </article>
       <AsideSection

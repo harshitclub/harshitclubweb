@@ -13,6 +13,7 @@ body {
   background-color: var(--bgWhite);
 }
 
+/* font-family: var(--font-geist-mono); */
 body::-webkit-scrollbar {
   width: 0.3rem;
 }
@@ -21,19 +22,12 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--black);
 }
 
+p {
+  line-height: 1.6;
+}
+
 button {
-  font-family: "Poppins", sans-serif;
-}
-
-::-moz-selection {
-  /* Code for Firefox */
-  color: var(--white);
-  background: var(--headingColor);
-}
-
-::selection {
-  color: var(--white);
-  background: var(--headingColor);
+  font-family: var(--font-geist-sans);
 }
 
 a {
@@ -47,7 +41,7 @@ ul {
 input,
 select,
 textarea {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-geist-sans);
 }
 
 textarea {
@@ -60,10 +54,11 @@ select {
 
 /* variables */
 :root {
-  --bgWhite: #fffdfa;
+  /* --bgWhite: #fffdfa; */
+  --bgWhite: #e8e8e8;
   --black: #111111;
   --black2: #212121;
-  --white: #ffffff;
+  --white: #e8e8e8;
   --textWhite: #eff0f2;
   --offWhite: #bfbfbf;
   --grey: #c5c5c5;
