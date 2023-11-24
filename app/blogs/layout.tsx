@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   description:
     "Explore insightful articles and engaging content on my blogs page. Discover a wealth of knowledge, tips, and inspiration in a variety of technical and development topics.",
   alternates: {
-    canonical: "https://harshitclub.com/blogs",
+    canonical: "https://www.harshitclub.com/blogs",
   },
   openGraph: {
     type: "website",
     title: "Blogs",
     description:
       "Explore insightful articles and engaging content on my blogs page. Discover a wealth of knowledge, tips, and inspiration in a variety of technical and development topics.",
-    url: "https://harshitclub.com/blogs",
+    url: "https://www.harshitclub.com/blogs",
     siteName: "harshitclub",
   },
 };

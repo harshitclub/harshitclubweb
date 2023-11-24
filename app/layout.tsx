@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Harshit Kumar Portfolio Website, a full stack web developer proficient in frontend and backend technologies like React, Next, Node, Express, JavaScript, TypeScript. Explore My Work and Skills To know more.",
   alternates: {
-    canonical: "https://harshitclub.com",
+    canonical: "https://www.harshitclub.com",
   },
   openGraph: {
     type: "website",

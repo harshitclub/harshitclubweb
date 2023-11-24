@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
   const allBlogs = blogs.map((item) => ({
-    url: `https://harshitclub.com/blog/${item.slug}`,
+    url: `https://www.harshitclub.com/blog/${item.slug}`,
     lastModified: item.meta.date,
   }));
 
@@ -29,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/privacy-and-policy",
     "/terms-and-conditions",
   ].map((route) => ({
-    url: `https://harshitclub.com${route}`,
+    url: `https://www.harshitclub.com${route}`,
     lastModified: new Date().toISOString().split("T")[0],
   }));
 

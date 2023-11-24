@@ -48,12 +48,12 @@ export async function generateMetadata({ params }: any) {
     title: blog.frontMatter.seoTitle,
     description: blog.frontMatter.description,
     alternates: {
-      canonical: `https://harshitclub.com/blog/${params.slug}`,
+      canonical: `https://www.harshitclub.com/blog/${params.slug}`,
     },
     openGraph: {
       type: "website",
       title: blog.frontMatter.title,
-      url: `https://harshitclub.com/blog/${params.slug}`,
+      url: `https://www.harshitclub.com/blog/${params.slug}`,
       siteName: "harshitclub",
     },
   };
