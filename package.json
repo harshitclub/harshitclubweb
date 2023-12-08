@@ -2,6 +2,9 @@
   "name": "harshitclub",
   "version": "0.1.0",
   "private": true,
+  "description": "Harshit Kumar's Personal Portfolio Website.",
+  "author": "Harshit Kumar",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
