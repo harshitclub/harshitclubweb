@@ -2,12 +2,6 @@
 <h1><a href="https://www.harshitclub.com" target="_blank">harshitclub.com</a></h1>
 </div>
 
-<div align="center">
-
-![harshitclub](https://github.com/harshitclub/testing/blob/main/assets/harshitclub.png "harshitclub")
-
-</div>
-
 <p align="justify">
 Hi there, I'm Harshit Kumar, a Full Stack Web Developer with a passion for building dynamic websites and web applications that deliver real-world results. I'm excited to showcase my skills and expertise through my portfolio website, which you can find at <a href="https://www.harshitclub.com" target="_blank">harshitclub.com</a>.</p> 
 <p>On my website, you'll find a comprehensive collection of my past projects, each one demonstrating my commitment to creating beautiful, functional websites that truly meet my clients' needs. Whether you're a potential employer, collaborator, or just someone interested in the world of web development, I invite you to explore my portfolio and see what I have to offer.
