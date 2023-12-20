@@ -5,6 +5,7 @@ import { GeistSans, GeistMono } from "geist/font";
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import NextTopLoader from "nextjs-toploader";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Harshit Kumar - Full Stack Web Developer",
@@ -46,6 +47,7 @@ export default function RootLayout({
         <Navbar />
         <NextTopLoader color="#111111" shadow="0" />
         {children}
+        <SpeedInsights />
         <Analytics />
         <Footer />
       </body>
