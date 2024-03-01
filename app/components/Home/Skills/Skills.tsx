@@ -110,7 +110,7 @@ export default function Skills() {
             <h3>On-Page SEO</h3>
           </div>
           <div className="mSkillBox">
-            <h3>WordPress</h3>
+            <h3>Wordpress</h3>
           </div>
         </div>
       </div>
